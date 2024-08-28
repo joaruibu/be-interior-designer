@@ -5,13 +5,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
 
-@layer utilities {}
+@layer utilities {
+}
 
 @layer base {
   @font-face {
-    font-family: 'Bigilla';
+    font-family: "Bigilla";
     font-weight: 400;
-    src: url("/font/Bigilla.otf") format("otf"), url("/font/Bigilla.ttf") format("truetype");
+    src: url("/font/Bigilla.otf") format("otf"),
+      url("/font/Bigilla.ttf") format("truetype");
   }
 
+  @layer base {
+    p {
+      @apply text-xl pb-6;
+    }
+    br {
+      @apply block mb-8 leading-8 text-2xl;
+    }
+
+    li {
+      @apply pb-6 sm:pb-8 text-xl;
+    }
+
+    ol {
+      @apply list-decimal list-inside pl-4;
+    }
+
+    ul {
+      @apply list-disc list-inside pl-4;
+    }
+  }
 }
