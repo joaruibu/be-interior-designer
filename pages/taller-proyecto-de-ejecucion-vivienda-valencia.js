@@ -1,7 +1,6 @@
 import React from 'react';
 import StripeButton from '../components/StripeButton';
-import Image from 'next/image';
-import srcImage from '../public/img/meme-ventilador.jpg';
+
 
 const TallerProyectoEjecucionVivienda = () => {
   const STRIPE_BUTTON_CONFIG = {
@@ -158,7 +157,7 @@ const TallerProyectoEjecucionVivienda = () => {
         <div className='flex justify-center'>
           <img
             className='text-center'
-            src={srcImage}
+            src={'/img/meme-ventilador.jpg'}
             alt='Imagen meme ventilador'
             width={400}
             height={200}
