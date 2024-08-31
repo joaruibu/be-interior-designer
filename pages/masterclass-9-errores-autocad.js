@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import StripeButton from '../components/StripeButton';
 import Image from 'next/image';
+import srcImage from '../public/img/meme-inodoro.jpeg';
 
 import CountdownTimer from '../components/CountDown';
 
@@ -276,7 +277,7 @@ const MasterClass9ErroresAutocad = () => {
         <div className='flex justify-center'>
           <Image
             className='text-center'
-            src={'/img/meme-inodoro.jpeg'}
+            src={srcImage}
             alt='stripe'
             width={400}
             height={200}

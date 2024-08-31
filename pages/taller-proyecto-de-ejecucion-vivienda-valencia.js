@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import StripeButton from '../components/StripeButton';
 import Image from 'next/image';
+import srcImage from '../public/img/meme-ventilador.jpg';
 
 const TallerProyectoEjecucionVivienda = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: ' Taller proyecto de ejecución de vivienda',
     buttonText: 'Comprar taller',
-    price: '120€',
+    price: '121€',
     urlStripe: 'https://buy.stripe.com/test_14kdUX6n6geJbSw288',
   };
   return (
@@ -157,7 +158,7 @@ const TallerProyectoEjecucionVivienda = () => {
         <div className='flex justify-center'>
           <Image
             className='text-center'
-            src={'/img/meme-ventilador.jpg'}
+            src={srcImage}
             alt='Imagen meme ventilador'
             width={400}
             height={200}
