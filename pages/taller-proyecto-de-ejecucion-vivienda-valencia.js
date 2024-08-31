@@ -156,7 +156,7 @@ const TallerProyectoEjecucionVivienda = () => {
         <br></br>
         <br></br>
         <div className='flex justify-center'>
-          <Image
+          <img
             className='text-center'
             src={srcImage}
             alt='Imagen meme ventilador'

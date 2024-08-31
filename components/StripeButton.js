@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import srcImage from "../public/img/cards-methods.png";
+import srcImage from "/img/cards-methods.png";
 
 const StripeButton = ({ urlStripe, children, title, price }) => {
   return (
@@ -21,7 +21,7 @@ const StripeButton = ({ urlStripe, children, title, price }) => {
         </button>
       </a>
       <div className="flex mt-3 justify-center">
-        <Image
+        <img
           className="text-center"
           src={srcImage}
           alt="stripe"
