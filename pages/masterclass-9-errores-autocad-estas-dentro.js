@@ -5,7 +5,7 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
   const [password, setPassword] = useState("");
 
   const PASWORDS = {
-    PASWORD_1: "autocad es tu amigo",
+    PASWORD_1: "AutocadEsTuAmigo",
   };
 
   return (

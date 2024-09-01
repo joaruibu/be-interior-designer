@@ -5,7 +5,7 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
   const [password, setPassword] = useState("");
 
   const PASWORDS = {
-    PASWORD_1: "no la cagues en tu obra",
+    PASWORD_1: "NoLaCaguesEnTuObra",
   };
 
   return (
