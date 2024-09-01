@@ -5,11 +5,12 @@ const FormAccesContent = ({ correctPassword, setPassword }) => {
   const [inputPassword, setInputPassword] = useState("");
 
   const handleSumbit = (e) => {
-    console.log(inputPassword);
+
     e.preventDefault();
-    if (Object.values(inputPassword.toLowerCase())) {
+    if (Object.values(correctPassword).includes(inputPassword.toLowerCase())) {
+
       setIsErrorPassword(false);
-      setPassword(inputPassword);
+      setPassword(inputPassword.toLowerCase());
     } else {
       setIsErrorPassword(true);
 

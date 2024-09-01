@@ -5,31 +5,59 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
   const [password, setPassword] = useState("");
 
   const PASWORDS = {
-    BONUS_1: "bonus 1",
-    BONUS_2: "bonus 2",
-    BONUS_3: "bonus 3",
+    PASWORD_1: "autocad es tu amigo",
   };
 
   return (
-    <div className="w-full h-[90vh] grid place-content-center font-playfair">
-      <div className="bg-stone-50 p-4  my-8  px-4 grid place-content-center leading-10">
-        <h1 className="text-5xl font-playfair">
-          Acceso Masterclass 9 Errores AutoCAD
-        </h1>
-        <br></br>
+    <div
+      className={`w-full ${
+        password !== PASWORDS.PASWORD_1 ? "h-[90vh]" : ""
+      } max-w-4xl place-content-center font-playfair`}
+    >
+      <div className="bg-stone-50 p-4 w-full my-8 px-4 grid place-content-center leading-10">
+        {password !== PASWORDS.PASWORD_1 ? (
+          <>
+            <h1 className="text-5xl font-playfair">
+              Acceso Masterclass 9 Errores AutoCAD
+            </h1>
+            <br />
+            <FormAccesContent
+              correctPassword={PASWORDS}
+              setPassword={setPassword}
+              password={password}
+            />
+            <h2 className="underline text-bid-terracotta font-bold">
+              Be Interior Designer
+            </h2>
+          </>
+        ) : (
+          <div className="p-4 sm:p-24">
+            <h1 className="text-5xl font-playfair text-center pb-24">
+              Masterclass 9 Errores más frecuentes en AutoCAD
+            </h1>
+            <div className="w-full flex justify-center flex-col space-y-24">
+              <iframe
+                src="https://drive.google.com/file/d/1O7yy0XXGoqNcedAvUPuT-K_499hP-lE5/preview"
+                width="768px"
+                height="432px"
+                allowFullScreen
+              ></iframe>
 
-        <FormAccesContent
-          correctPassword={PASWORDS}
-          setPassword={setPassword}
-          password={password}
-        ></FormAccesContent>
-
-        <h2 className="underline text-bid-terracotta font-bold">
-          Be Interior Designer
-        </h2>
-        {password === PASWORDS.BONUS_1 && <p>Veo el Bonus 1</p>}
-        {password === PASWORDS.BONUS_2 && <p>Veo el Bonus 2</p>}
-        {password === PASWORDS.BONUS_3 && <p>Veo el Bonus 3</p>}
+              <a
+                href={
+                  "https://www.notion.so/beinteriordesigner/a36d525517794b1d8717d8bb53452388?v=a163840bbbe34642b25cda190023cb5b"
+                }
+                target="_blank"
+              >
+                <button
+                  className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
+                >
+                  Bonus - Los comandos más usados en Autocad
+                </button>
+              </a>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
