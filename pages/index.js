@@ -1,17 +1,14 @@
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
-
-
 const Home = () => {
-    const { push } = useRouter();
+  const { push } = useRouter();
 
-    useEffect(() => {
-        push('/descarga-bloques-autocad');
-    }, []);
+  useEffect(() => {
+    push("/descarga-bloques-autocad");
+  }, []);
 
-    return null;
+  return null;
+};
 
-}
-
-export default Home
+export default Home;

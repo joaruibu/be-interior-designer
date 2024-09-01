@@ -11,11 +11,11 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
   return (
     <div
       className={`w-full ${
-        password !== PASWORDS.PASWORD_1 ? "h-[90vh]" : ""
+        password === PASWORDS.PASWORD_1 ? "h-[90vh]" : ""
       } max-w-4xl place-content-center font-playfair`}
     >
       <div className="bg-stone-50 p-4 w-full my-8 px-4 grid place-content-center leading-10">
-        {password !== PASWORDS.PASWORD_1 ? (
+        {password === PASWORDS.PASWORD_1 ? (
           <>
             <h1 className="text-5xl font-playfair text-center">
               Acceso Taller Proyecto de ejecución vivienda Valencia
@@ -36,30 +36,33 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
               Masterclass 9 Errores más frecuentes en AutoCAD
             </h1>
 
-            <p className="pb-2">
-              El directo esl el día 5 de Octubre a las 18:00 hora peninsular
-              española.
-              <br />
-              Clicka en el botón para acceder al directo.
-            </p>
-            <p className="italic text-xs pb-12">
-              *Una vez termine el directo podrás acceder aquí a la grabación
-            </p>
+            <div className="border-4 rounded border-bid-wine p-4 text-center">
+              <p className="pb-6 ">
+                El directo esl el día 5 de Octubre a las 18:00 hora peninsular
+                española.
+                <br />
+                Clicka en el botón para acceder al directo.
+              </p>
+              <p className="italic text-xs pb-12">
+                *Una vez termine el directo podrás acceder aquí a la grabación
+              </p>
 
-            <a href={"https://www.youtube.es"} target="_blank">
-              <button
-                className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
-              >
-                Acceder al directo
-              </button>
-            </a>
+              <a href={"https://www.youtube.es"} target="_blank">
+                <button
+                  className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
+                >
+                  Acceder al directo
+                </button>
+              </a>
+            </div>
 
-            <div className="w-full flex justify-center ">
-              <p>Bonus - Audio privado</p>{" "}
-              {/* <audio src="https://drive.google.com/file/d/1Ayn-Jc3Y5wldI26vbaGnzIlW0eDvs2py/view?usp=share_link"></audio> */}
-              <audio controls="controls">
+            <div className="w-full flex flex-col items-center pt-24">
+              <p className="text-5xl font-playfair text-center pb-8">
+                Bonus - Audio privado
+              </p>{" "}
+              <audio controls controlsList="nodownload">
                 <source
-                  src="https://docs.google.com/uc?export=download&id=1Ayn-Jc3Y5wldI26vbaGnzIlW0eDvs2py"
+                  src="https://res.cloudinary.com/dh2hwwzpy/video/upload/v1725049570/ZOOM0061_xznawj.mp3"
                   type="audio/mp3"
                 ></source>
               </audio>
