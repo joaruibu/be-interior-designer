@@ -495,7 +495,10 @@ const TallerProyectoEjecucionVivienda = () => {
             ¿Cuál es su precio? ¿Bajará alguna vez?
           </h4>
           <br></br>
-          <p>El precio de este taller es de 120€ y nunca bajará.</p>
+          <p>
+            El precio de este taller es de {STRIPE_BUTTON_CONFIG.price} y nunca
+            bajará.
+          </p>
           <p>
             Nunca hacemos ofertas, ni black fridays, ni rebajas, ni nada. Es
             más, si de algo puedes estar seguro es que con el paso del tiempo el
