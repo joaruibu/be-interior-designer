@@ -18,14 +18,9 @@ const MasterClass9ErroresAutocad = () => {
         <header>
           <p className="text-center text-bid-wine font-bold">
             *Suscripción confirmada. <br></br>Ya tienes los bloques en tu email{" "}
-            (pueden tardar unos minutos en llegar).
+            (pueden tardar unos minutos en llegar, pero llegan).
           </p>
-
-          <p className="text-center text-bid-wine font-bold px-24">
-            Ya tienes los bloques en tu email (pueden tardar unos minutos en
-            llegar).
-          </p>
-
+          <br></br> <br></br>{" "}
           <p className="text-4xl underline  text-left  pb-12 font-bold ">
             Si piensas usar tus bloques esto te interesa...
           </p>
@@ -98,6 +93,7 @@ const MasterClass9ErroresAutocad = () => {
           Pero lo que sí que te puede importar es que{" "}
           <b> todos ellos, todos sin excepción, tenían algo en común...</b>
         </p>
+        <br></br>
         <p>
           {" "}
           Y no solo es que todos necesitasen AutoCad para su vida profesional…
@@ -528,11 +524,11 @@ const MasterClass9ErroresAutocad = () => {
           <p>
             Viendo el vídeo del tirón. Luego te recomiendo que lo vuelvas a ver
             con tu autocad abierto, y te vayas parando en todos los errores
-            relevantes que tú cometas para poner en práctica sus soluciones. Es
-            una hora larga de masterclass de alto nivel sobre dibujo en el
-            sector de la construcción y te vas a encontrar con bastantes
-            detalles interesantes. Así que para el vídeo, ponlo en práctica y
-            sigues. Esta es mi recomendación.
+            relevantes que tú cometas para poner en práctica sus soluciones. Son
+            59 minutos de masterclass de alto nivel sobre dibujo en el sector de
+            la construcción y te vas a encontrar con bastantes detalles
+            interesantes. Así que para el vídeo, ponlo en práctica y sigues.
+            Esta es mi recomendación.
           </p>
         </div>
 

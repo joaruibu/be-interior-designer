@@ -25,10 +25,8 @@ const DescargaBloquesAutocadUltimoPasoSuscripcion = () => {
         </h2>
         <p>
           <b>
-            Una vez confirmes tu suscripción se descargarán los bloques y te
-            llegará automáticamente tu email de bienvenida donde te cuento algo
-            que lo mismo te interesa, puede tardar hasta 10 minutos en llegar,
-            pero llega.{" "}
+            Te llegará automáticamente un email de bienvenida con tus bloques.
+            Puede tardar hasta 10 minutos en llegar, pero llega.{" "}
           </b>{" "}
         </p>
       </div>

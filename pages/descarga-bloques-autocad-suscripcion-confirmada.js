@@ -13,7 +13,7 @@ const DescargaBloquesAutocadSuscripcionConfirmada = () => {
         </p>
         <p>
           Puede puede tardar hasta 10 minutos en llegar o que esté en spam, en
-          ese caso añade la dirección info@beinteriordesginer.com a tus lista de
+          ese caso añade la dirección info@beinteriordesginer.com a tu lista de
           contactos.
         </p>
       </div>

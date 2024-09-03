@@ -39,7 +39,7 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
             <br></br>
             <br></br>
 
-            <p>
+            <p className="text-bid-terracotta">
               <i>
                 En esta página damos muchos recursos, no solo la masterclass.
                 Por favor,
@@ -123,7 +123,7 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
                   Recomendamos ver los 9 problemas del tirón. Luego te
                   recomendamos que lo vuelvas a ver con tu autocad abierto, y te
                   vayas parando en todos los errores relevantes que tú cometas
-                  para poner en práctica sus soluciones. Es una hora larga de
+                  para poner en práctica sus soluciones. Son 59 minutos de
                   masterclass de alto nivel sobre dibujo en el sector de la
                   construcción y te vas a encontrar con bastantes detalles
                   interesantes. Así que para el vídeo, ponlo en práctica y
@@ -160,6 +160,11 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
               <p>Problema 7: Por qué mis cotas se leen mal. | 40:17</p>
               <p>Problema 8: Por favor, usa bien tus capas. | 47:48</p>
               <p>Problema 9: Imprime como un pro. | 53:51</p>
+            </div>
+
+            <div className="pl-16">
+              <p className="pt-24">Esperamos que lo aproveches mucho.</p>
+              <p>Laura y Joaquín, de Be Interior Designer.</p>
             </div>
           </div>
         )}

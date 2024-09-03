@@ -3,9 +3,9 @@ import StripeButton from "../components/StripeButton";
 
 const TallerProyectoEjecucionVivienda = () => {
   const STRIPE_BUTTON_CONFIG = {
-    title: " Taller proyecto de ejecución de vivienda",
+    title: " Taller proyecto ejecución de vivienda",
     buttonText: "Comprar taller",
-    price: "121€",
+    price: "120€",
     urlStripe: "https://buy.stripe.com/test_14kdUX6n6geJbSw288",
   };
   return (
@@ -15,7 +15,8 @@ const TallerProyectoEjecucionVivienda = () => {
           <h1 className="text-4xl sm:text-5xl  sm:leading-[60px] text-left  pb-24 sm:pb-32 font-bold">
             Todos los arquitectos de interiores, decoradores, interioristas...
             quieren hacer proyectos de ejecución de interiorismo de forma
-            profesional, pero casi todo el mundo hace lo mismo que los demás.
+            profesional, pero casi todo el mundo hace lo mismo que los demás,
+            mal.
             <br></br>
             Es raro.{" "}
           </h1>
@@ -40,7 +41,7 @@ const TallerProyectoEjecucionVivienda = () => {
         </h2>
         <p>
           {" "}
-          Hace ocho años andaba buscando una constructora para hacer una reforma
+          Hace unos años andaba buscando una constructora para hacer una reforma
           en Valencia.{" "}
         </p>
         <br></br>
@@ -256,15 +257,20 @@ const TallerProyectoEjecucionVivienda = () => {
         </ul>
         <br></br>
         <br></br>
-        <p>
+
+        <h3 className="font-bold text-2xl pb-4  ">
+          {" "}
           Por cierto, te contaremos también algo que aprendí trabajando haciendo
           casas de lujo en Mallorca… Si aplicas esto en tus proyectos de
-          ejecución, tu cliente no te olvidará (y te querrá más).
-        </p>
+          ejecución, tu cliente no te olvidará (y te querrá más).{" "}
+        </h3>
+
         <p>
           Es algo para estar en la mente de tu cliente (y no es poner tu nombre
           bien grande).
         </p>
+        <br></br>
+
         <br></br>
         <p>Más cosas que veremos en el taller…</p>
         <ul>
@@ -299,10 +305,11 @@ const TallerProyectoEjecucionVivienda = () => {
           </li>
 
           <li>
-            Mi abuela siempre decía que la práctica hace al maestro. Nosotros
+            Mi padre siempre decía que la práctica hace al maestro. Nosotros
             años de experiencia tenemos unos cuantos y hemos creado este taller
             contando todo lo que hemos aprendido en todos estos años.
             <b>
+              {" "}
               Puedes aprenderlo en una tarde (luego lo tendrás que poner tú en
               práctica) o en varios años trabajando en varios estudios (y en
               algunos estudios igual no aprendes nada, suele pasar).{" "}
@@ -313,7 +320,7 @@ const TallerProyectoEjecucionVivienda = () => {
             <b>
               Por qué no saber la diferencia entre un plano de fontanería y
               saneamiento, te hará parecer un inútil delante del fontanero.
-            </b>
+            </b>{" "}
             Lo entenderás en un minuto y lo recordarás para siempre.
           </li>
 
@@ -375,17 +382,17 @@ const TallerProyectoEjecucionVivienda = () => {
           </p>
           <p>Lo destriparemos entero:</p>
           <ul>
-            <li>Los planos que contiene. </li>
-            <li>Qué deben contener esos planos. </li>
-            <li>Las cagadas que hicimos. </li>
-            <li>Las soluciones a las cagadas.</li>
-            <li>Cómo fue la obra. </li>
-            <li>El antes y el después. </li>
-            <li>
+            <li className="pb-2">Los planos que contiene. </li>
+            <li className="pb-2">Qué deben contener esos planos. </li>
+            <li className="pb-2">Las cagadas que hicimos. </li>
+            <li className="pb-2">Las soluciones a las cagadas.</li>
+            <li className="pb-2">Cómo fue la obra. </li>
+            <li className="pb-2">El antes y el después. </li>
+            <li className="pb-2">
               Las cagadas que surgieron meses después de finalizar la obra.
             </li>
-            <li>Las soluciones a esas otras cagadas. </li>
-            <li>Todo.</li>
+            <li className="pb-2">Las soluciones a esas otras cagadas. </li>
+            <li className="pb-2">Todo.</li>
           </ul>
           <p>
             No te vamos a enseñar ahora la vivienda porque no nos da la gana
@@ -403,7 +410,7 @@ const TallerProyectoEjecucionVivienda = () => {
           <br></br>
           <p>
             El taller consiste en un directo el día 5 de OCTUBRE a las 18:00
-            hora España (península).
+            hora España (Madrid).
           </p>
 
           <p>
@@ -414,7 +421,7 @@ const TallerProyectoEjecucionVivienda = () => {
             Nuestro consejo es que lo imprimas (si eres de escribir a mano),
             para que puedas tomar notas en el mismo pdf mientras hacemos el
             taller. Si eres digital, te recomendamos tener el proyecto abierto
-            para poder hacer anotaciones encima desde tu tablet.
+            para poder hacer anotaciones encima.
           </p>
 
           <p>Vamos a dar mucho contenido, lo agradecerás. </p>
@@ -527,9 +534,9 @@ const TallerProyectoEjecucionVivienda = () => {
             urbanísticos, patologías constructivas…{" "}
           </p>
           <p>
-            Parece evidente que un proyecto de ejecución de una reforma normal
-            no tiene un plano de forjados y armadura, pero por si acaso te lo
-            decimos.
+            Parece evidente que un<i> proyecto de ejecución de interiorismo</i>{" "}
+            de una reforma normal no tiene un plano de forjados y armadura, pero
+            por si acaso te lo decimos.
           </p>
           <p>
             Tampoco lo compres si piensas que tu caso, tu negocio, tu cliente o

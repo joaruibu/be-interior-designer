@@ -18,7 +18,8 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
         {password !== PASWORDS.PASWORD_1 ? (
           <>
             <h1 className="text-5xl font-playfair text-center">
-              Acceso Taller en Directo Proyecto de Ejecución Vivienda Valencia
+              Acceso al taller en directo: Proyecto de Ejecución de interiorismo
+              vivienda Valencia
             </h1>
             <br />
             <FormAccesContent
@@ -33,13 +34,14 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
         ) : (
           <div className="p-4 sm:px-8 sm:pt-36">
             <h1 className="text-5xl font-playfair text-center pb-24">
-              Taller en Directo Proyecto de Ejecución Vivienda Valencia
+              Taller en directo: Proyecto de Ejecución de interiorismo vivienda
+              Valencia
             </h1>
 
             <br></br>
             <br></br>
 
-            <p>
+            <p className="text-bid-terracotta">
               <i>
                 En esta página damos muchos recursos, no solo el taller. Por
                 favor,
@@ -73,7 +75,7 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
               </p>
               <br></br>
 
-              <a href={""} target="_blank">
+              <a href={""} className="pointer-events-none	">
                 <button
                   className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
                 >
@@ -88,7 +90,7 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
               </h2>
               <br></br>
               <p>
-                Hemos decidido darte regalarte este audio de bienvenida, pero no
+                Hemos decidido regalarte este audio de bienvenida, pero no
                 queremos que pienses que tiene poco valor por el hecho de que
                 sea un regalo.
               </p>
@@ -96,10 +98,11 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
               <p>
                 Si aplicas lo que te contamos en el audio (trabajes por cuenta
                 ajena o por cuenta propia), amortizarás con creces el precio
-                completo de este taller. Escúchalo tantas veces como necesites.
+                completo de este taller. <br></br> Escúchalo tantas veces como
+                necesites.
               </p>
               <br></br>
-
+              //todo: change the src of the audio
               <div className="flex justify-center">
                 <audio controls controlsList="nodownload">
                   <source
@@ -112,13 +115,13 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
 
             <div className=" mb-36">
               <h2 className="font-alternate text-3xl font-bold leading-[42px]">
-                - Proyecto de ejecución de interiorismo Vivienda Valencia en
-                pdf.
+                - PDF de Proyecto de ejecución de interiorismo Vivienda
+                Valencia.
               </h2>
               <br></br>
               <p>
                 <i>
-                  Estará disponible unos días antes del directo. Te avisaremos
+                  * Estará disponible unos días antes del directo. Te avisaremos
                   por email cuando puedas acceder a él. No lo damos antes para
                   no hacer spoiler.
                 </i>
@@ -192,6 +195,10 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
                   email.{" "}
                 </li>
               </ol>
+            </div>
+            <div className="pl-16">
+              <p className="pt-24">Esperamos que lo aproveches mucho.</p>
+              <p>Laura y Joaquín, de Be Interior Designer.</p>
             </div>
           </div>
         )}

@@ -80,7 +80,7 @@ const SubscriptionForm = ({ titleForm, textButton, label, id, name }) => {
                   Acepto la{" "}
                   <a
                     className="underline text-gray-900"
-                    href="https://beinteriordesginer.com/privacidad/"
+                    href="https://beinteriordesigner.com/privacidad"
                     target="_blank"
                   >
                     política de privacidad
@@ -96,7 +96,7 @@ const SubscriptionForm = ({ titleForm, textButton, label, id, name }) => {
                 aceptar{" "}
                 <a
                   className="underline text-gray-900"
-                  href="https://beinteriordesginer.com/privacidad/"
+                  href="https://beinteriordesigner.com/privacidad"
                   target="_blank"
                 >
                   la política de privacidad.
