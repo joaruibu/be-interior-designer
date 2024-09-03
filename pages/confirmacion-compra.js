@@ -15,7 +15,7 @@ const ConfirmacionCompra = () => {
         <p>¡Hasta pronto!</p>
 
         <br></br>
-        <h2 className="underline text-bid-terracotta font-bold">
+        <h2 className=" text-bid-wine font-bigilla font-bold">
           Be Interior Designer
         </h2>
       </div>

@@ -10,7 +10,8 @@ const MasterClass9ErroresAutocad = () => {
     title: " MasterClass 9 errores AutoCad.",
     buttonText: "Comprar MasterClass",
     price: "15€",
-    urlStripe: "https://buy.stripe.com/test_14kdUX6n6geJbSw288",
+    urlStripe:
+      "https://lauradearquer.quadernoapp.com/checkout/link/03ffb95521f6e4a0db15a99e2d7d6b09d8dea705",
   };
   return (
     <div className="w-full font-playfair">

@@ -20,15 +20,17 @@ const DescargaBloquesAutocadUltimoPasoSuscripcion = () => {
           info@beinteriordesginer.com a tus lista de contactos.
         </p>
         <br></br>
-        <h2 className="underline text-bid-terracotta font-bold">
-          MUY IMPORTANTE:
-        </h2>
+        <h2 className="underline text-bid-wine font-bold">MUY IMPORTANTE:</h2>
         <p>
           <b>
             Te llegará automáticamente un email de bienvenida con tus bloques.
             Puede tardar hasta 10 minutos en llegar, pero llega.{" "}
           </b>{" "}
         </p>
+        <br></br>
+        <h2 className=" text-bid-wine font-bigilla font-bold">
+          Be Interior Designer
+        </h2>
       </div>
     </div>
   );

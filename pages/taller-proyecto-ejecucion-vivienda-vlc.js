@@ -6,7 +6,8 @@ const TallerProyectoEjecucionVivienda = () => {
     title: " Taller proyecto ejecución de vivienda",
     buttonText: "Comprar taller",
     price: "120€",
-    urlStripe: "https://buy.stripe.com/test_14kdUX6n6geJbSw288",
+    urlStripe:
+      "https://lauradearquer.quadernoapp.com/checkout/link/be514d758b9331452e555b573a614f755abd99e5",
   };
   return (
     <div className="w-full font-playfair">
