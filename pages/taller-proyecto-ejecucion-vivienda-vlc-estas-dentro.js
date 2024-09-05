@@ -102,11 +102,11 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
                 necesites.
               </p>
               <br></br>
-              //todo: change the src of the audio
+
               <div className="flex justify-center">
                 <audio controls controlsList="nodownload">
                   <source
-                    src="https://res.cloudinary.com......"
+                    src="https://res.cloudinary.com/dh2hwwzpy/video/upload/v1725561561/Directo%20PE%20vivienda%20Valencia/ygurg0sxzqkhe69nbdiv.mp3"
                     type="audio/mp3"
                   ></source>
                 </audio>
