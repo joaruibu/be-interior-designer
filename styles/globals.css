@@ -15,6 +15,12 @@
     src: url("/font/Bigilla.otf") format("otf"),
       url("/font/Bigilla.ttf") format("truetype");
   }
+  @font-face {
+    font-family: "Bigilla";
+    font-weight: 700;
+    src: url("/font/Bigilla-Bold") format("otf"),
+      url("/font/Bigilla-Bold.ttf") format("truetype");
+  }
 
   @layer base {
     p {
