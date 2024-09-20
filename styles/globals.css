@@ -41,5 +41,9 @@
     ul {
       @apply list-disc list-inside pl-4;
     }
+
+    q {
+      @apply italic text-lg;
+    }
   }
 }

@@ -23,7 +23,7 @@ const Home = () => {
           Puede ser.
         </h2>
 
-        <p> Tambien puede ser que esto te interese:</p>
+        <p> También puede ser que esto te interese:</p>
         <br></br>
         <p>Hablamos de arquitectura.</p>
         <p>
@@ -43,9 +43,13 @@ const Home = () => {
         <p>
           {" "}
           También hablamos de cómo crear casas donde la gente quiera follar. Sí,
-          de follar también hablamos. Porque la gente en su casa no caga flores.
-          Sino que caga y folla como cualquier otro ser humano. Y eso, cagar y
-          follar, es algo que quieren hacer muy muy a gusto en su casa.{" "}
+          de follar también hablamos.{" "}
+          <b>
+            {" "}
+            Porque la gente en su casa no caga flores. Sino que caga y folla
+            como cualquier otro ser humano. Y eso, cagar y follar, es algo que
+            quieren hacer muy muy a gusto en su casa.
+          </b>{" "}
         </p>
 
         <p>
@@ -75,21 +79,21 @@ const Home = () => {
           hagas.
         </p>
 
-        <p>
+        <p className="pl-6">
           No depender de ser funcionario (si vives en España sabes a qué me
           refiero).{" "}
         </p>
-        <p>
+        <p className="pl-6">
           No depender de clientes casposos, si no que tú escojas quién sea tu
           cliente.{" "}
         </p>
 
-        <p>
+        <p className="pl-6">
           No depender de que tu padre o tu madre tengan dinero para montarte un
           estudio y traerte clientes, (o heredar el de papa o mama).
         </p>
 
-        <p>
+        <p className="pl-6">
           Ni tampoco de conseguir trabajo con un portfolio que… bueno, que por
           muy pro que seas, todo el mundo hace lo mismo.
         </p>
@@ -107,8 +111,11 @@ const Home = () => {
           te vamos a contar en esta newsletter y en nuestros productos.{" "}
         </p>
         <p>
-          Sospechamos que nadie te las ha dicho, igual que nadie nos las dijo a
-          nosotros.{" "}
+          {" "}
+          <b>
+            Sospechamos que nadie te las ha dicho, igual que nadie nos las dijo
+            a nosotros.{" "}
+          </b>
         </p>
 
         <br></br>
@@ -133,15 +140,24 @@ const Home = () => {
           Si quieres unirte a las miles de personas que los reciben, te apuntas
           aquí abajo.
         </p>
-        <br></br>
-        <br></br>
-        <br></br>
 
-        <p className="font-bold pl-6 text-2xl">Soy mas maja que las pesetas </p>
+        <SubscriptionForm
+          titleForm={FORM_DATA.titleForm}
+          textButton={FORM_DATA.textButton}
+          id={FORM_DATA.id}
+          name={FORM_DATA.name}
+        />
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <p className="font-bold  text-3xl">Soy más maja que las pesetas </p>
+        <br></br>
+        <br></br>
 
         <p>
-          En España tenemos este dicho cuando alguien es muy muy simpático “es
-          más majo que las pesetas”.{" "}
+          En España tenemos este dicho cuando alguien es muy muy simpático “
+          <i>es más majo que las pesetas”.</i>{" "}
         </p>
 
         <p>
@@ -155,7 +171,7 @@ const Home = () => {
         </p>
         <p>
           Si eres un Arquitecto con A mayúscula, me dirás que no son bloques de
-          interiorismo si no de Arquitectura con A mayúscula. Bueno, yo tus
+          interiorismo sino de Arquitectura con A mayúscula. Bueno, yo tus
           problemas personales no puedo solucionarlos, el motivo para el que
           estoy aquí ya te lo he dicho arriba.{" "}
         </p>
@@ -163,8 +179,7 @@ const Home = () => {
         <p>
           Pero igualmente si quieres recibir estos bloques de regalo, es aquí:
         </p>
-        <br></br>
-        <br></br>
+
         <SubscriptionForm
           titleForm={FORM_DATA.titleForm}
           textButton={FORM_DATA.textButton}
@@ -174,10 +189,11 @@ const Home = () => {
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
 
-        <h2 className="text-2xl font-semibold text-left">
+        <p className="font-bold  text-3xl">
           Algunos comentarios no solicitados:
-        </h2>
+        </p>
 
         <br></br>
         <br></br>
@@ -192,8 +208,11 @@ const Home = () => {
         </q>
 
         <p>
-          Sí, recibimos respuestas por email no tan majas como yo, como la de
-          arriba. Pero también hay otras como las de abajo que hacen que todo el
+          Sí, recibimos respuestas por email, algunas de gente no tan majas como
+          yo, como la de arriba.
+          <br></br>
+          <br></br>
+          Pero también hay otras como las de abajo que hacen que todo el
           esfuerzo merezca la pena:{" "}
         </p>
         <br></br>
@@ -230,12 +249,11 @@ const Home = () => {
 
         <br></br>
         <br></br>
-        <br></br>
 
         <p>
-          Hay muchos, muchos más. Pero si te gusto más con la faceta de
-          soberbia, igual piensas que estas respuestas que nos llegan por email
-          me los he inventado…
+          Hay muchos, muchos más. Pero si te gusto con la faceta de soberbia,
+          igual piensas que estas respuestas que nos llegan por email me los he
+          inventado…
         </p>
         <br></br>
 
@@ -257,13 +275,13 @@ const Home = () => {
           Muchas gracias por los bloques se lo agradezco.
         </q>
         <q className="px-6 mb-12 block">Muy agradecido, impecable trabajo!</q>
+        <br></br>
         <p>
           En cualquier caso, si tú también quieres recibir nuestro aporte con un
           consejo diario de arquitectura, y probar los bloques de los que hablan
           los que ya están dentro… para apuntarte es abajo:{" "}
         </p>
 
-        <br></br>
         <SubscriptionForm
           titleForm={FORM_DATA.titleForm}
           textButton={FORM_DATA.textButton}

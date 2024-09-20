@@ -13,13 +13,11 @@ const About = () => {
       <div className="bg-stone-50 p-4 sm:p-24  my-12">
         <header>
           <h1 className="text-4xl sm:text-5xl  sm:leading-[60px] text-left  pb-24  font-bold">
-            No te fíes de mi.
+            No te fíes de mi. Te lo digo en serio.
           </h1>
         </header>
         <h2 className="text-2xl font-semibold text-left  pb-16">
-          Te lo digo en serio.
-          <br></br>
-          <br></br>Y te voy a explicar por qué.
+          Y te voy a explicar por qué.
         </h2>
 
         <p>
@@ -102,6 +100,7 @@ const About = () => {
         <br></br>
 
         <p>Así que me contactó.</p>
+        <p>De lo primero que me dijo:</p>
         <p>
           <i>“Yo no sé si seré capaz.” </i>
         </p>
@@ -181,8 +180,8 @@ const About = () => {
         <br></br>
         <p>
           Yo no lo sabía, pero cuando decía <i> Yo no quiero ser arquitecta,</i>
-          realidad me refería a la figura de arquitecto tradicional casposo. No
-          va conmigo.{" "}
+          en realidad me refería a la figura de arquitecto tradicional casposo.
+          No va conmigo.{" "}
         </p>
         <br></br>
 
@@ -208,7 +207,8 @@ const About = () => {
             Y tampoco te suscribas si le chupabas el culo a los profesores
             llenos de ego que después de pagar miles de euros en un máster, no
             te han enseñado a dibujar un puto proyecto de ejecución Real, ni a
-            enfrentarte a una obra Real.{" "}
+            enfrentarte a una obra Real, y encima te hacían llorar en las
+            correcciones de proyectos.{" "}
           </b>
         </p>
 
