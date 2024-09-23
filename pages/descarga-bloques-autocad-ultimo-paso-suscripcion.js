@@ -23,8 +23,9 @@ const DescargaBloquesAutocadUltimoPasoSuscripcion = () => {
         <h2 className="underline text-bid-wine font-bold">MUY IMPORTANTE:</h2>
         <p>
           <b>
-            Te llegará automáticamente un email de bienvenida con tus bloques.
-            Puede tardar hasta 10 minutos en llegar, pero llega.{" "}
+            Sólo después de confirmar te llegará automáticamente un email de
+            bienvenida con tus bloques. Puede tardar hasta 10 minutos en llegar,
+            pero llega.{" "}
           </b>{" "}
         </p>
         <br></br>

@@ -81,12 +81,12 @@ const DownloadAutocadBlockPage = () => {
         <p>Claro que sí.</p>
         <p>
           Para recibir el regalo de + 500 bloques profesionales de AutoCad,
-          tendrás que suscribirte primero a nuestra newsletter.{" "}
+          tendrás que suscribirte a nuestra newsletter.{" "}
         </p>
         <p>
-          Si luego no quieres recibir consejos profesinales de arquitectura,
-          solo tendrás que darte de baja. Siempre será tu decisión. Y tan
-          amigos.{" "}
+          Si después de recibirlos no quieres recibir consejos profesinales de
+          arquitectura, solo tendrás que darte de baja. Siempre será tu
+          decisión. Y tan amigos.{" "}
         </p>
         <br></br>
         <br></br>
