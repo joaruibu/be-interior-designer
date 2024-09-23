@@ -532,10 +532,11 @@ const TallerProyectoEjecucionVivienda = () => {
             El curso vale incluso para zurdos pelirrojos que se dediquen al
             sector de la construcción.
           </p>
+          presupuestos y mediciones
           <p>
             Pero ojo. Existen motivos por los que este curso puede no ser para
             ti, no explicamos nada de estructuras, cimentación, parámetros
-            urbanísticos, patologías constructivas…{" "}
+            urbanísticos, presupuestos y mediciones, patologías constructivas…{" "}
           </p>
           <p>
             Parece evidente que un<i> proyecto de ejecución de interiorismo</i>{" "}

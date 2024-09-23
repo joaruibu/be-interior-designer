@@ -11,14 +11,19 @@ const DownloadAutocadBlockPage = () => {
 
   return (
     <div className="w-full font-playfair">
-      <div className="bg-stone-50 p-4 sm:p-24  my-12">
+      <div className="bg-stone-50 p-4 sm:p-20  my-12">
         <header>
-          <h1 className="text-4xl sm:text-5xl  sm:leading-[60px] text-left  pb-20 font-bold">
-            Suscríbete y consigue más de 500 bloques de Interiorismo y
-            Arquitectura, los que nosotros usamos en nuestros proyectos
-            profesionales y que, ahora, puedes usar tú también. <br></br>
-            Es gratis.
+          <h1 className="text-4xl sm:text-5xl  sm:leading-[60px] text-left  pb-16 font-bold">
+            SUSCRÍBETE A LA NEWSLETTER Y RECIBE DE REGALO + 500 BLOQUES DE
+            INTERIORISMO DE AUTOCAD
           </h1>
+
+          <h2 className="text-2xl font-semibold text-left  pb-12">
+            Los que nosotros usamos en nuestros proyectos profesionales de
+            arquitectura e interiorismo y que, ahora, puedes usar tú también.{" "}
+            <br></br> Al suscribirte en la caja de suscripción. <br></br> Es
+            gratis.
+          </h2>
         </header>
 
         <SubscriptionForm
@@ -29,6 +34,16 @@ const DownloadAutocadBlockPage = () => {
         />
         <br></br>
         <br></br>
+
+        <div className="flex justify-center">
+          <img
+            className="text-center"
+            src={"/img/macBook-bloques-autocad.jpg"}
+            alt="Imagen bloques autocad"
+            width={400}
+            height={200}
+          />
+        </div>
 
         <h2 className="text-2xl font-semibold text-left py-16">
           Qué NO vas a encontrar en este archivo de bloques:
