@@ -165,8 +165,32 @@ const About = () => {
           <b>Consiguió el trabajo. </b>
         </p>
         <br></br>
+        <div className=" flex justify-center">
+          <img
+            className="text-center"
+            src={"/img/nosotros-cactus.jpeg"}
+            alt="Imagen nostros con un cactus"
+            width={350}
+            height={1500}
+          />
+        </div>
+        <br></br>
+        <br></br>
+
         <p>Bueno.</p>
+
         <p>
+          Que sepas que de esas formaciones 1a1 salió este proyecto de Be
+          Interior Designer. Me junté con Joaquín que también es arquitecto
+          (pero de los majos eh, no es Arquitecto)… Y aquí estamos, debajo de
+          unas palmeras como ves en la foto.
+        </p>
+
+        <br></br>
+        <p>
+          Total.
+          <br></br>
+          <br></br>
           Que esto te lo cuento no para fardar de una de mis alumnas favoritas
           (quien te diga que los profesores no tienen alumnos favoritos, te
           miente).{" "}
