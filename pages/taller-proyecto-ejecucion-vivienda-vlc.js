@@ -4,7 +4,7 @@ import StripeButton from "../components/StripeButton";
 const TallerProyectoEjecucionVivienda = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: " Taller proyecto ejecución de vivienda",
-    buttonText: "Comprar taller",
+    buttonText: "Upss, llegas tarde",
     price: "160€",
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/link/be514d758b9331452e555b573a614f755abd99e5",
