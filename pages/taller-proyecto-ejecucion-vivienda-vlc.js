@@ -6,6 +6,7 @@ const TallerProyectoEjecucionVivienda = () => {
     title: " Taller proyecto ejecución de vivienda",
     buttonText: "Upss, llegas tarde",
     price: "160€",
+    isDisabled: true,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/link/be514d758b9331452e555b573a614f755abd99e5",
   };
@@ -186,6 +187,7 @@ const TallerProyectoEjecucionVivienda = () => {
           urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
           price={STRIPE_BUTTON_CONFIG.price}
           title={STRIPE_BUTTON_CONFIG.title}
+          isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
         >
           {STRIPE_BUTTON_CONFIG.buttonText}
         </StripeButton>
@@ -361,6 +363,7 @@ const TallerProyectoEjecucionVivienda = () => {
           urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
           price={STRIPE_BUTTON_CONFIG.price}
           title={STRIPE_BUTTON_CONFIG.title}
+          isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
         >
           {STRIPE_BUTTON_CONFIG.buttonText}
         </StripeButton>
@@ -609,6 +612,7 @@ const TallerProyectoEjecucionVivienda = () => {
           urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
           price={STRIPE_BUTTON_CONFIG.price}
           title={STRIPE_BUTTON_CONFIG.title}
+          isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
         >
           {STRIPE_BUTTON_CONFIG.buttonText}
         </StripeButton>

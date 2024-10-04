@@ -1,6 +1,12 @@
 import React from "react";
 
-const StripeButton = ({ urlStripe, children, title, price }) => {
+const StripeButton = ({
+  urlStripe,
+  children,
+  title,
+  price,
+  isDisabled = false,
+}) => {
   return (
     <div className="py-12">
       <span className="block italic">*Pago seguro con tarjeta de crédito</span>
@@ -13,7 +19,7 @@ const StripeButton = ({ urlStripe, children, title, price }) => {
       </span>
       <a href={urlStripe} target="_self">
         <button
-          disabled
+          disabled={isDisabled}
           className={`w-full font-playfair bg-bid-terracotta tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
         >
           {children}
