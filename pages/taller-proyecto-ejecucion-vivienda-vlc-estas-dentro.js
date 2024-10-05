@@ -75,7 +75,10 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
               </p>
               <br></br>
 
-              <a href={"https://meet.google.com/jwf-nvfe-qjd?authuser=2"}>
+              <a
+                href={"https://meet.google.com/jwf-nvfe-qjd?authuser=2"}
+                target="_blank"
+              >
                 <button
                   className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
                 >
@@ -142,8 +145,8 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
                 <li>
                   Recomendamos imprimir el pdf del Proyecto de Ejecución para
                   que puedas seguir mejor el directo y hacer anotaciones
-                  directamente encima de él. Por eso lo enviaremos unos días
-                  antes, para que tengas tiempo para imprimirlo.
+                  directamente encima de él. Cuando esté disponible el pdf, te
+                  avisamremos.
                 </li>
                 <li>
                   Si no lo imprimes porque eres como Laura que se organiza todo
