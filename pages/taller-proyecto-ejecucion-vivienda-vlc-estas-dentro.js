@@ -75,7 +75,7 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
               </p>
               <br></br>
 
-              <a href={""} className="pointer-events-none	">
+              <a href={"https://meet.google.com/jwf-nvfe-qjd?authuser=2"}>
                 <button
                   className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
                 >
@@ -119,13 +119,18 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
                 Valencia.
               </h2>
               <br></br>
-              <p>
-                <i>
-                  * Estará disponible unos días antes del directo. Te avisaremos
-                  por email cuando puedas acceder a él. No lo damos antes para
-                  no hacer spoiler.
-                </i>
-              </p>
+              <a
+                href={
+                  "https://drive.google.com/uc?export=download&id=10puIjeFPq9m1TWIdU-3N9QjzJY9pGHZv"
+                }
+                className=""
+              >
+                <button
+                  className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
+                >
+                  Descargar PDF proyecto
+                </button>
+              </a>
             </div>
 
             <div className=" mb-36">
