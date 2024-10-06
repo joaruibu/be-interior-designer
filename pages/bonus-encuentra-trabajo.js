@@ -3,11 +3,11 @@ import StripeButton from "../components/StripeButton";
 
 import CountdownTimer from "../components/CountDown";
 
-const MasterClass9ErroresAutocad = () => {
+const BonusEncuentraTrabajo = () => {
   const [isTimOver, setIsTimeOver] = useState(false);
 
   const STRIPE_BUTTON_CONFIG = {
-    title: " MasterClass 9 errores AutoCad.",
+    title: " BonusEncuentraTrabajo.",
     buttonText: "Comprar MasterClass",
     price: "15€",
     urlStripe:
@@ -17,10 +17,24 @@ const MasterClass9ErroresAutocad = () => {
     <div className="w-full font-playfair">
       <div className="bg-stone-50 p-4 sm:p-24  my-12">
         <header>
+          <p className="text-center text-bid-wine font-bold">
+            *Suscripción confirmada. <br></br>Ya tienes los bloques en tu email{" "}
+            (pueden tardar unos minutos en llegar, pero llegan).
+          </p>
+          <br></br> <br></br>{" "}
+          <p className="text-4xl underline  text-left  pb-12 font-bold ">
+            Audio exclive suscriptores
+          </p>
+          <div className="border rounded-lg p-4  border-4 text-center border-bid-terracotta my-8">
+            <p className="font-bold sm:text-3xl text-bid-terracotta pb-0">
+              Tienes 30 minutos para leer esto.
+            </p>
+            <CountdownTimer timer={30} setIsTimeOver={setIsTimeOver} />
+          </div>
+          <br></br>
+          <br></br>
           <h1 className="text-4xl sm:text-5xl  sm:leading-[60px] text-left  pb-24 sm:pb-32 font-bold">
-            Cuando cometes estos 9 errores de dibujo en tus planos,<br></br> no
-            es que no parezcas profesional, <br></br> es que realmente parece
-            que no tienes ni idea.{" "}
+            Titulo del bonus del audio de econtrar trabajo
           </h1>
         </header>
         <h2 className="text-2xl font-semibold text-left">
@@ -545,4 +559,4 @@ const MasterClass9ErroresAutocad = () => {
   );
 };
 
-export default MasterClass9ErroresAutocad;
+export default BonusEncuentraTrabajo;
