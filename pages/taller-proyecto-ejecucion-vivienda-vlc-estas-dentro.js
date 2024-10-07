@@ -60,30 +60,22 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
                 - El Taller.
               </h2>
               <br></br>
-              <p>
-                El directo es el día 5 de Octubre a las 18:00 (Madrid, España).
-              </p>
-              <p>
-                Cuando llegue la hora del directo, clica en el botón de abajo
-                para acceder.{" "}
-              </p>
-              <p>
-                <i>
-                  * Una vez termine el directo, colgaremos aquí la grabación
-                  para que puedas volver a verlo tantas veces como quieras.
-                </i>
-              </p>
-              <br></br>
+              <iframe
+                src="https://drive.google.com/file/d/114G2i-8AbuDklJy2OEn2sTARS9rDp-Eg/preview"
+                width="100%"
+                height="432px"
+                allowFullScreen
+              ></iframe>
 
               <a
-                href={"https://meet.google.com/jwf-nvfe-qjd?authuser=2"}
+                href={
+                  "https://beinteriordesigner.notion.site/Gui-n-del-taller-e5f650dcc6d14ef5ae1c15cfc021b7f7?pvs=4"
+                }
                 target="_blank"
+                className=" my-8 block text-bid-wine font-alternate text-xl font-bold "
               >
-                <button
-                  className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
-                >
-                  Acceder al directo
-                </button>
+                {" "}
+                Ver índice del taller
               </a>
             </div>
 
