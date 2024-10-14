@@ -109,6 +109,20 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
 
             <div className=" mb-36">
               <h2 className="font-alternate text-3xl font-bold leading-[42px]">
+                - Bonus I.
+              </h2>
+              <br></br>
+              <iframe
+                src="https://drive.google.com/file/d/1wb_98rt1F6ImnBVHyBbGVol7oby3ie2k/preview"
+                width="768px"
+                height="432px"
+                allowFullScreen
+              ></iframe>
+              <br></br>
+            </div>
+
+            <div className=" mb-36">
+              <h2 className="font-alternate text-3xl font-bold leading-[42px]">
                 - Recomendaciones para ver la Masterclass.
               </h2>
               <br></br>
