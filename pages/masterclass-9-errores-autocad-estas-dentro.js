@@ -4,25 +4,30 @@ import FormAccesContent from "../components/FormAccesContent";
 const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
   const [password, setPassword] = useState("");
 
-  const PASWORDS = {
-    PASWORD_1: "AutocadEsTuAmigo",
+  const PASSWORDS = {
+    PASSWORD_1: "AutocadEsTuAmigo",
+    PASSWORD_2: "DibujaConCabeza",
+  };
+
+  const isCorrectPassword = (password) => {
+    return !Object.values(PASSWORDS).includes(password);
   };
 
   return (
     <div
       className={`w-full ${
-        password !== PASWORDS.PASWORD_1 ? "h-[90vh]" : ""
+        isCorrectPassword(password) ? "h-[90vh]" : ""
       } max-w-4xl place-content-center font-playfair`}
     >
       <div className="bg-stone-50 p-4 w-full my-8 px-4 grid place-content-center leading-10">
-        {password !== PASWORDS.PASWORD_1 ? (
+        {isCorrectPassword(password) ? (
           <>
             <h1 className="text-5xl font-playfair text-center">
               Acceso Masterclass 9 Errores AutoCAD
             </h1>
             <br />
             <FormAccesContent
-              correctPassword={PASWORDS}
+              correctPassword={PASSWORDS}
               setPassword={setPassword}
               password={password}
             />
@@ -107,19 +112,50 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
               </a>
             </div>
 
-            <div className=" mb-36">
-              <h2 className="font-alternate text-3xl font-bold leading-[42px]">
-                - Bonus I.
-              </h2>
-              <br></br>
-              <iframe
-                src="https://drive.google.com/file/d/1wb_98rt1F6ImnBVHyBbGVol7oby3ie2k/preview"
-                width="768px"
-                height="432px"
-                allowFullScreen
-              ></iframe>
-              <br></br>
-            </div>
+            {password === PASSWORDS.PASSWORD_1 && (
+              <div className=" mb-36">
+                <h2 className="font-alternate text-3xl font-bold leading-[42px]">
+                  - Bonus I.
+                </h2>
+                <br></br>
+                <iframe
+                  src="https://drive.google.com/file/d/1wb_98rt1F6ImnBVHyBbGVol7oby3ie2k/preview"
+                  width="768px"
+                  height="432px"
+                  allowFullScreen
+                ></iframe>
+                <br></br>
+              </div>
+            )}
+
+            {(password === PASSWORDS.PASSWORD_1 ||
+              password === PASSWORDS.PASSWORD_2) && (
+              <div className=" mb-36">
+                <h2 className="font-alternate text-3xl font-bold leading-[42px]">
+                  - Bonus II.
+                </h2>
+                <br></br>
+                <iframe
+                  src="https://drive.google.com/file/d/1pQ9vvXynMQbb-lXbxzwG6NhPXF_uq7Zq/preview"
+                  width="768px"
+                  height="432px"
+                  allowFullScreen
+                ></iframe>
+                <br></br>
+                <a
+                  href={
+                    "https://drive.google.com/uc?export=download&id=1FhLYA0gRVfFSIKhX3iddCEiDQ9AEbTvf"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
+                  >
+                    Bonus - Bloque dínamico autocad
+                  </button>
+                </a>
+              </div>
+            )}
 
             <div className=" mb-36">
               <h2 className="font-alternate text-3xl font-bold leading-[42px]">
