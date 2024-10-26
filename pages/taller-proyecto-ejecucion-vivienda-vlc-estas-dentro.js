@@ -157,44 +157,24 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
 
             <div className="">
               <h2 className="font-alternate text-3xl font-bold leading-[42px] pb-8">
-                - Sesión de dudas post-directo.
-              </h2>
-              <h2 className="font-alternate text-2xl font-bold text-center">
-                Cómo enviarnos tus dudas
+                - Dudas del directo.
               </h2>
 
               <br></br>
 
-              <ol>
-                <li>
-                  <b>
-                    Podrás enviarnos tus dudas por email hasta el día 19 de
-                    octubre a las 23:59 (Madrid, España).
-                  </b>{" "}
-                  Pasado ese día, ya no responderemos dudas.{" "}
-                </li>
-                <li>
-                  <b>
-                    El email deberá tener el asunto: DUDAS PARA NO CAGARLA EN LA
-                    OBRA.
-                  </b>{" "}
-                  Es decir, cuando nos pongamos a responder filtraremos los
-                  emails con ese asunto, si no has puesto ese asunto, tu duda no
-                  nos aparecerá y no la podremos responder.{" "}
-                </li>
-                <li>
-                  Responderemos dudas que tengan que ver con el taller. Me
-                  explico. Si nos preguntas cómo dibujar un salón para el
-                  proyecto de tu tía-abuela… Pues no.
-                </li>
-                <li>
-                  Una semana después, el día 26 de octubre 2024, publicaremos
-                  las respuestas aquí. O sea, no solo contestaremos a tu duda,
-                  si no que podrás ver las preguntas de otras personas y que
-                  seguramente también te ayuden. Como siempre, te avisaremos por
-                  email.{" "}
-                </li>
-              </ol>
+              <a
+                href={
+                  "https://beinteriordesigner.notion.site/Resoluci-n-dudas-e85d282614be4044942800eed8a967d1?pvs=4"
+                }
+                className=""
+                target="_blank"
+              >
+                <button
+                  className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
+                >
+                  Ver dudas resueltas
+                </button>
+              </a>
             </div>
             <div className="pl-16">
               <p className="pt-24">Esperamos que lo aproveches mucho.</p>
