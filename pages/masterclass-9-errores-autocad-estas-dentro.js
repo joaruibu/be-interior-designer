@@ -80,6 +80,61 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
               ></iframe>
             </div>
 
+            <div className="mb-36">
+              <h2 className="font-alternate text-3xl font-bold leading-[42px]">
+                - Índice de la Masterclass.
+              </h2>
+              <br></br>
+              <p>
+                Como te decía antes, recomendamos ver la masterclass por orden.
+                Pero si luego quieres recordar alguna cosa, te vendrá bien tener
+                un índice del contenido:{" "}
+              </p>
+              <p>
+                Problema 1: No saber escalar ni redibujar bien un pdf | 02:15
+              </p>
+              <p>
+                Problema 2: La verdadera razón de que no dibujes rápido en
+                AutoCad | 08:05
+              </p>
+              <p>Problema 3: En qué unidades trabajas. | 13:20</p>
+              <p>Problema 4: No seas hortera. | 20:36</p>
+              <p>
+                Problema 5: En qué escala vas a representar tus planos. | 27:20
+              </p>
+              <p>
+                Problema 6: La marranada de los textos en los planos. | 34:11
+              </p>
+              <p>Problema 7: Por qué mis cotas se leen mal. | 40:17</p>
+              <p>Problema 8: Por favor, usa bien tus capas. | 47:48</p>
+              <p>Problema 9: Imprime como un pro. | 53:51</p>
+            </div>
+
+            <div className=" mb-36">
+              <h2 className="font-alternate text-3xl font-bold leading-[42px]">
+                - Recomendaciones para ver la Masterclass.
+              </h2>
+              <br></br>
+              <ol className="px-6">
+                <li>
+                  Recomendamos ver la masterclass por orden. La masterclass es
+                  muy progresiva, es decir, si ves el Problema 9 sin ver antes
+                  el Problema 3, no lo entenderás bien y no podrás solucionarlo.
+                  No seas ansias y ve paso a paso.
+                </li>
+                <li>
+                  Recomendamos ver los 9 problemas del tirón. Luego te
+                  recomendamos que lo vuelvas a ver con tu autocad abierto, y te
+                  vayas parando en todos los errores relevantes que tú cometas
+                  para poner en práctica sus soluciones. Son 59 minutos de
+                  masterclass de alto nivel sobre dibujo en el sector de la
+                  construcción y te vas a encontrar con bastantes detalles
+                  interesantes. Así que para el vídeo, ponlo en práctica y
+                  sigues. Hay mucha información.
+                </li>
+              </ol>
+            </div>
+
             <div className=" mb-36">
               <h2 className="font-alternate text-3xl font-bold leading-[42px]">
                 - Bonus - Plantilla de Comandos de AutoCad (para que diseñes
@@ -128,8 +183,7 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
               </div>
             )}
 
-            {(password === PASSWORDS.PASSWORD_1 ||
-              password === PASSWORDS.PASSWORD_2) && (
+            {password === PASSWORDS.PASSWORD_1 && (
               <div className=" mb-36">
                 <h2 className="font-alternate text-3xl font-bold leading-[42px]">
                   - Bonus II.
@@ -156,61 +210,6 @@ const MasterClass9ErroresMasFrecuentesEstasDentro = () => {
                 </a>
               </div>
             )}
-
-            <div className=" mb-36">
-              <h2 className="font-alternate text-3xl font-bold leading-[42px]">
-                - Recomendaciones para ver la Masterclass.
-              </h2>
-              <br></br>
-              <ol className="px-6">
-                <li>
-                  Recomendamos ver la masterclass por orden. La masterclass es
-                  muy progresiva, es decir, si ves el Problema 9 sin ver antes
-                  el Problema 3, no lo entenderás bien y no podrás solucionarlo.
-                  No seas ansias y ve paso a paso.
-                </li>
-                <li>
-                  Recomendamos ver los 9 problemas del tirón. Luego te
-                  recomendamos que lo vuelvas a ver con tu autocad abierto, y te
-                  vayas parando en todos los errores relevantes que tú cometas
-                  para poner en práctica sus soluciones. Son 59 minutos de
-                  masterclass de alto nivel sobre dibujo en el sector de la
-                  construcción y te vas a encontrar con bastantes detalles
-                  interesantes. Así que para el vídeo, ponlo en práctica y
-                  sigues. Hay mucha información.
-                </li>
-              </ol>
-            </div>
-
-            <div className="">
-              <h2 className="font-alternate text-3xl font-bold leading-[42px]">
-                - Índice de la Masterclass.
-              </h2>
-              <br></br>
-              <p>
-                Como te decía antes, recomendamos ver la masterclass por orden.
-                Pero si luego quieres recordar alguna cosa, te vendrá bien tener
-                un índice del contenido:{" "}
-              </p>
-              <p>
-                Problema 1: No saber escalar ni redibujar bien un pdf | 02:15
-              </p>
-              <p>
-                Problema 2: La verdadera razón de que no dibujes rápido en
-                AutoCad | 08:05
-              </p>
-              <p>Problema 3: En qué unidades trabajas. | 13:20</p>
-              <p>Problema 4: No seas hortera. | 20:36</p>
-              <p>
-                Problema 5: En qué escala vas a representar tus planos. | 27:20
-              </p>
-              <p>
-                Problema 6: La marranada de los textos en los planos. | 34:11
-              </p>
-              <p>Problema 7: Por qué mis cotas se leen mal. | 40:17</p>
-              <p>Problema 8: Por favor, usa bien tus capas. | 47:48</p>
-              <p>Problema 9: Imprime como un pro. | 53:51</p>
-            </div>
 
             <div className="pl-16">
               <p className="pt-24">Esperamos que lo aproveches mucho.</p>
