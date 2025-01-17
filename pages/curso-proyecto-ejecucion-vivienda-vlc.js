@@ -3,9 +3,9 @@ import StripeButton from "../components/StripeButton";
 
 const CursoProyectoEjecucionVivienda = () => {
   const STRIPE_BUTTON_CONFIG = {
-    title: " Curso proyecto ejecución de vivienda",
-    buttonText: "Upss, llegas tarde",
-    price: "230€",
+    title: " Curso proyecto ejecución de vivienda real",
+    buttonText: "Comprar curso",
+    price: "240€",
     isDisabled: true,
     urlStripe: "",
   };
@@ -81,8 +81,7 @@ const CursoProyectoEjecucionVivienda = () => {
         <br></br>
         <br></br>
         <p className="font-bold text-2xl">
-          Aquí va la primera de muchas lecciones que te contaremos en el
-          directo….{" "}
+          Aquí va la primera lección de muchas que te contamos en el curso.{" "}
         </p>
         <p>
           <span className="text-bid-terracotta font-bold">
@@ -110,7 +109,7 @@ const CursoProyectoEjecucionVivienda = () => {
         <p>
           Escogimos un blanco con un ral específico y listo (sabrás que el
           blanco nunca es blanco, si no tranquilo qeu también te lo contaremos
-          en el taller).
+          dentro del curso).
         </p>
         <br></br>
         <p>
@@ -122,7 +121,7 @@ const CursoProyectoEjecucionVivienda = () => {
           Pues porque yo no lo había especificado en el proyecto de ejecución, o
           más bien, <b> lo había especificado pero de la forma incorrecta</b>{" "}
           (también te contarémos cuál es la forma correcta de especificar
-          acabados dentro del taller).
+          acabados dentro del curso).
         </p>
         <br></br>
         <br></br>
@@ -147,10 +146,15 @@ const CursoProyectoEjecucionVivienda = () => {
           recibirá serán calidades de mierda.{" "}
         </p>
         <p>
-          Y tú lo que recibirás será malos modos, tener que pagar para enmendar
-          el error, puede que entrar en pleitos por no cumplir contrato, y lo
-          peor en nuestra opinión, una bajada enorme de tu credibilidad
-          profesional. De tu estatus.{" "}
+          Y tú lo que recibirás será malos modos, de tu cliente o de tu jefe si
+          trabajas para otro, tener que pagar para enmendar el error.
+        </p>
+        <p>
+          {" "}
+          Puede que entrar en pleitos por no cumplir contrato, puede que tu jefe
+          te despida (si tus cagadas son recurrentes) y lo peor en nuestra
+          opinión, una bajada enorme de tu credibilidad profesional. De tu
+          estatus.{" "}
         </p>
         <br></br>
         <br></br>
@@ -179,7 +183,7 @@ const CursoProyectoEjecucionVivienda = () => {
         <p>Pues eso.</p>
         <h2 className="text-2xl font-semibold text-left  pb-16">
           Puedes aprender estos errores con años de experiencia, cometiéndolos
-          tú mismo, o… Comprar este taller y aprenderlo en una tarde.
+          tú mismo, o… Comprar este curso y aprenderlo en una tarde.
         </h2>
         <StripeButton
           urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
@@ -194,7 +198,7 @@ const CursoProyectoEjecucionVivienda = () => {
         <h3 className="font-bold text-3xl pb-4 pt-8">
           {" "}
           A continuación, algunas de las lecciones que nosotros hemos aprendido
-          a la fuerza y que a ti te vamos a enseñar en el taller, ahorrándote
+          a la fuerza y que a ti te vamos a enseñar en el curso, ahorrándote
           años de cagadas y dinero:{" "}
         </h3>
         <br></br>
@@ -273,12 +277,12 @@ const CursoProyectoEjecucionVivienda = () => {
         <br></br>
 
         <br></br>
-        <p>Más cosas que veremos en el taller…</p>
+        <p>Más cosas que veremos en el curso…</p>
         <ul>
           <li>
             <b>
               Las 3 cosas que toda persona que empieza en el sector de la
-              decoración, interiorimas o arquitectura de interiores, hace mal{" "}
+              decoración, interiorismo o arquitectura de interiores, hace mal{" "}
             </b>{" "}
             y que solo el paso del tiempo y la pérdida de dinero, harán que lo
             descubra. Si lo hace.
@@ -307,13 +311,14 @@ const CursoProyectoEjecucionVivienda = () => {
 
           <li>
             Mi padre siempre decía que la práctica hace al maestro. Nosotros
-            años de experiencia tenemos unos cuantos y hemos creado este taller
+            años de experiencia tenemos unos cuantos y hemos creado este curso
             contando todo lo que hemos aprendido en todos estos años.
             <b>
               {" "}
               Puedes aprenderlo en una tarde (luego lo tendrás que poner tú en
               práctica) o en varios años trabajando en varios estudios (y en
-              algunos estudios igual no aprendes nada, suele pasar).{" "}
+              algunos estudios igual no aprendes nada, y te pagan menos, suele
+              pasar).{" "}
             </b>{" "}
           </li>
 
@@ -339,8 +344,8 @@ const CursoProyectoEjecucionVivienda = () => {
               Es normal que te sientas perdido al hacer unos planos de
               instalaciones,
             </b>{" "}
-            bueno, normal si no sabes lo que explicamos en la segunda parte del
-            taller, si sabes esto nunca mas te sentirás perdido.
+            bueno, normal si no sabes lo que explicamos en el curso, si sabes
+            esto nunca mas te sentirás perdido.
           </li>
           <li>
             Una manera sutil de no parecer un becario…{" "}
@@ -368,22 +373,54 @@ const CursoProyectoEjecucionVivienda = () => {
         <br></br>
         <br></br>
         <br></br>
-        <h3 className="font-bold text-3xl pb-4 pt-8"> Preguntas frecuentes</h3>
+        <h3 className="font-bold text-4xl pb-4 pt-8">
+          Algunas personas le van a sacar mucho valor a este curso, otras no.
+        </h3>
+        <br></br>
+        <br></br>
+        <p>
+          Todas la personas que compran reciben un email con una direción web y
+          una contraseña privada.
+        </p>
+        <p>En esa web privada pueden ver el curso de 2 horas y 22 minutos.</p>
+
+        <p>
+          En esa web tambien se puede descargar el pdf del proeycto, y ver las
+          preguntas que han tenido otras personas en el curso y las respuestas
+        </p>
+        <p>
+          En esta web tambien se puede{" "}
+          <b>descargar el archivo dgw del proyecto.</b>{" "}
+        </p>
+        <p>El orignal; con sus capas, sus bloques, sus cotas.</p>
+        <p>Todo configurado para que se vea perfecto.</p>
+        <p>
+          Algunas personas usaran este archivo para crearse una plantilla
+          profesional donde realizar sus proyectos, reutilizaran los bloques,
+          aprovecharan la configuración de cotas
+        </p>
+        <p>
+          Crearán una plantilla que les puede ahorrar mucho tiempo y dinero.
+        </p>
+        <p>Otros no lo harán.</p>
+        <br></br>
+        <br></br>
+        <h3 className="font-bold text-4xl pb-4 pt-8"> Preguntas frecuentes</h3>
         <br></br>
         <br></br>
         <div className="pb-8">
           <h4 className="font-bold text-3xl ">
             {" "}
-            No entiendo de qué va el taller. ¿Qué me vas a explicar?
+            No entiendo de qué va el curso. ¿Qué me vas a explicar?
           </h4>
           <br></br>
           <p>
-            Te vamos a contar un proyecto de ejecución de una reforma de
-            vivienda al completo En concreto, el que realizamos para la reforma
+            Te vamos a explicar un proyecto de ejecución de una reforma de
+            vivienda al completo. En concreto, el que realizamos para la reforma
             en Valencia que te hemos contado arriba.
           </p>
           <p>Lo destriparemos entero:</p>
-          <ul>
+          <ul className="mb-2">
             <li className="pb-2">Los planos que contiene. </li>
             <li className="pb-2">Qué deben contener esos planos. </li>
             <li className="pb-2">Las cagadas que hicimos. </li>
@@ -397,73 +434,73 @@ const CursoProyectoEjecucionVivienda = () => {
             <li className="pb-2">Todo.</li>
           </ul>
           <p>
-            No te vamos a enseñar ahora la vivienda porque no nos da la gana
-            hacer spoiler. Pero para que decidas si te interesa o no, es una
-            vivienda estándar de 70m2 aprox, en el centro de Valencia, séptima
-            planta. Es decir, si haces o quieres hacer reformas de vivienda, los
-            problemas que contamos son a los que tú también te enfrentarás.{" "}
+            Es una vivienda estándar de 70m2 aprox, en el centro de Valencia,
+            séptima planta. Es decir, si haces o quieres hacer reformas de
+            vivienda, los problemas que contamos son a los que tú también te
+            enfrentarás.{" "}
           </p>
         </div>
         <div className="pb-8">
           <h4 className="font-bold text-3xl ">
             {" "}
-            ¿Cómo es el taller? ¿Cómo funciona?
+            ¿Cómo es el curso? ¿Cómo funciona?
           </h4>
           <br></br>
           <p>
-            El taller consiste en un directo el día 5 de OCTUBRE a las 18:00
-            hora España (Madrid).
+            Hace unos meses hicimos un taller en directo con este contenido.
+          </p>
+          <p>
+            El curso es la grabación del taller, ademas de el pdf del proyecto
+            para que puedas imprimirlo, soporte para dudas, y el archivo dwg.
           </p>
 
           <p>
-            El día anterior recibirás por email el pdf del proyecto de
-            ejecución.
+            El archivo dwg con sus bloques, todo ordenado con capas, tendrás el
+            archivo orginal del proyecto para que puedas usarlo como plantilla
+            en tus proyectos.
           </p>
           <p>
-            Nuestro consejo es que lo imprimas (si eres de escribir a mano),
-            para que puedas tomar notas en el mismo pdf mientras hacemos el
-            taller. Si eres digital, te recomendamos tener el proyecto abierto
-            para poder hacer anotaciones encima.
+            Por si te lo preguntas, el taller no lo vamos a volver a repetir
+            nunca más.{" "}
+          </p>
+          <p>
+            La única forma de acceder a esta información, es y será mediante
+            este curso.
           </p>
 
-          <p>Vamos a dar mucho contenido, lo agradecerás. </p>
           <p>
-            Además, nada más hacer la compra recibirás un email con las
-            instruccioens de cómo acceder al taller y algo más… Pero esto solo
-            lo descubrirá la gente que acceda al curso.
+            Una vez realices la compra te llegará un email con una dirección web
+            y una contraseña privada{" "}
           </p>
+          <p>En esa dirección web podrás ver: </p>
+          <ul className="mb-2">
+            <li className="pb-2"> La grabación del directo</li>
+            <li className="pb-2"> El pdf del proyecto para descargar</li>
+            <li className="pb-2">
+              El <b>dwg original</b> del proyecto para descargar
+            </li>
+            <li className="pb-2">
+              Todas las dudas que nos han hecho y las respuestas
+            </li>
+          </ul>
         </div>
         <div className="pb-8">
-          <h4 className="font-bold text-3xl "> ¿Cuanto dura el taller?</h4>
+          <h4 className="font-bold text-3xl "> ¿Cuanto dura el curso?</h4>
           <br></br>
           <p>
-            No sabemos cuánto durará, estaremos el tiempo que haga falta, ni nos
-            enrollaremos con paja ni cortaremos a una hora.
-          </p>
-          <p>
-            Si te tienes que ir antes, no pasa nada. Se quedará grabado y podrás
-            verlo cuando quieras y las veces que quieras.
-          </p>
-          <p>
-            En cuanto la compres recibiras un mensaje de correo eléctrónico de
-            cómo acceder.
+            El curso es una grabación en directo que dura 2 horas y 22 minutos,
+            no lo hicimos queriendo, fue el tiempo que necesitamos.
           </p>
         </div>
         <div className="pb-8">
           <h4 className="font-bold text-3xl ">
-            ¿Se va a grabar el taller? ¿Durante cuánto tiempo tendré acceso al
-            taller?
+            ¿Durante cuánto tiempo tendré acceso al curso?
           </h4>
           <br></br>
           <p>
-            Sí. Todo se quedará grabado, podrás acceder a él cuando quieras, las
-            veces que quieras durante un año como mínimo.{" "}
-          </p>
-
-          <p>
-            ¿Solo un año? Probablemente esté mucho más tiempo porque en
-            principio no tenemos pensado retirarlo, pero el compromiso es de un
-            año como mínimo.
+            Mínimo dos años, probablemente esté mucho más tiempo porque en
+            principio no tenemos pensado retirarlo, pero el compromiso es de dos
+            años como mínimo.
           </p>
           <p>
             Esto es así porque alojarlo cuesta dinero, nos podemos morir y mil
@@ -477,16 +514,15 @@ const CursoProyectoEjecucionVivienda = () => {
           <br></br>
           <p>Resolveremos dudas. </p>
           <p>
-            Cuando finalice el taller en directo, nos podrás enviar tus dudas
-            durante dos semanas. Nos parece tiempo más que de sobra para que si
-            no has podido acudir al directo, puedas verlo. Pasado ese tiempo
-            revisaremos todas las dudas, las agruparemos y te compartiremos las
-            respuestas. O sea, no solo contestaremos a tu duda, si no que podrás
-            ver las preguntas de otras personas y que seguramente también te
-            ayuden.{" "}
+            Cuando realices la comprá, nos podrás enviar tus dudas durante un
+            mes. Nos parece tiempo más que de sobra para que puedas hacer el
+            curso y escribirnos todas las dudas que tengas. Todas las dudas y
+            las respuestas, las compartiremos. O sea, no solo contestaremos a tu
+            duda, si no que podrás ver las preguntas de otras personas y que
+            seguramente también te ayuden.{" "}
           </p>
           <p>
-            Responderemos dudas que tengan que ver con el taller. Me explico. Si
+            Responderemos dudas que tengan que ver con el curso. Me explico. Si
             me preguntas cómo dibujar un salón para el proyecto de tu
             tía-abuela… Pues no.{" "}
           </p>
@@ -497,7 +533,7 @@ const CursoProyectoEjecucionVivienda = () => {
           </h4>
           <br></br>
           <p>
-            El precio de este taller es de {STRIPE_BUTTON_CONFIG.price} y nunca
+            El precio de este curso es de {STRIPE_BUTTON_CONFIG.price} y nunca
             bajará.
           </p>
           <p>
@@ -505,7 +541,7 @@ const CursoProyectoEjecucionVivienda = () => {
             más, si de algo puedes estar seguro es que con el paso del tiempo el
             precio subirá.
           </p>
-          <p>Este es el mejor precio al que va a estar este taller.</p>
+          <p>Este es el mejor precio al que va a estar este curso.</p>
         </div>
         <div className="pb-8">
           <h4 className="font-bold text-3xl ">

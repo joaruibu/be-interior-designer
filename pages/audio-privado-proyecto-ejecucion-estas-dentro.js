@@ -11,7 +11,7 @@ const AudioPrivadoProyectoEjecucionEstasDentro = () => {
         <div className="flex justify-center">
           <audio controls controlsList="nodownload">
             <source
-              src="https://res.cloudinary.com/dh2hwwzpy/video/upload/v1736972959/BID-audio-PE-2_mp2j2s.mov"
+              src="https://res.cloudinary.com/dh2hwwzpy/video/upload/v1737056712/BID-audio_bienvenida-PE_l7pbgh.mp4"
               type="audio/mp3"
             ></source>
           </audio>
