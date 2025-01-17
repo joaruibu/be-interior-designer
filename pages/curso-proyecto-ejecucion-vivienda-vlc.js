@@ -385,7 +385,7 @@ const CursoProyectoEjecucionVivienda = () => {
         <p>En esa web privada pueden ver el curso de 2 horas y 22 minutos.</p>
 
         <p>
-          En esa web tambien se puede descargar el pdf del proeycto, y ver las
+          En esa web tambien se puede descargar el pdf del proyecto, y ver las
           preguntas que han tenido otras personas en el curso y las respuestas
         </p>
         <p>
@@ -403,6 +403,16 @@ const CursoProyectoEjecucionVivienda = () => {
           Crearán una plantilla que les puede ahorrar mucho tiempo y dinero.
         </p>
         <p>Otros no lo harán.</p>
+        <p>
+          El curso incluye un directo donde Laura te enseñará como usar archivo
+          .dwg de forma profesional.
+        </p>
+        <p>
+          Puedes pensar que ya sabes Autocad, pero este archivo y ese directo es
+          de alto nivel.
+        </p>
+        <p>Solo eso ya vale el precio del curso.</p>
+        <p></p>
         <br></br>
         <br></br>
         <h3 className="font-bold text-4xl pb-4 pt-8"> Preguntas frecuentes</h3>
@@ -472,7 +482,7 @@ const CursoProyectoEjecucionVivienda = () => {
             Una vez realices la compra te llegará un email con una dirección web
             y una contraseña privada{" "}
           </p>
-          <p>En esa dirección web podrás ver: </p>
+          <p>En esa dirección web privada podrás ver: </p>
           <ul className="mb-2">
             <li className="pb-2"> La grabación del directo</li>
             <li className="pb-2"> El pdf del proyecto para descargar</li>
@@ -483,6 +493,18 @@ const CursoProyectoEjecucionVivienda = () => {
               Todas las dudas que nos han hecho y las respuestas
             </li>
           </ul>
+          <p>
+            Además de todo esto, Laura va hacer un directo para explicarte el
+            archivo dwg
+          </p>
+          <p>
+            {" "}
+            <i>¿Pero si yo ya se Autocad? Lo uso a diario</i>
+          </p>
+          <p>
+            Puedes pensar que ya sabes Autocad, pero este archivo y ese directo
+            es de alto nivel.
+          </p>
         </div>
         <div className="pb-8">
           <h4 className="font-bold text-3xl "> ¿Cuanto dura el curso?</h4>
