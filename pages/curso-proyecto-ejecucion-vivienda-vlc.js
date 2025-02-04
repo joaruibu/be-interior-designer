@@ -3,12 +3,16 @@ import StripeButton from "../components/StripeButton";
 
 const CursoProyectoEjecucionVivienda = () => {
   const STRIPE_BUTTON_CONFIG = {
-    title: " Curso proyecto ejecución de vivienda real",
+    title: " Curso proyecto ejecución de vivienda real + dwg",
     buttonText: "Comprar curso",
-    price: "240€",
+    price: "190€",
     isDisabled: true,
-    urlStripe: "",
+    urlStripe:
+      "https://lauradearquer.quadernoapp.com/checkout/session/d9d92fc9fb9db35c730b93b5d219236b9bc151fd/init",
   };
+
+  const FECHA_DIRECTO = "sábado 15 de marzo a las 17:00 (Madrid)";
+
   return (
     <div className="w-full font-playfair">
       <div className="bg-stone-50 p-4 sm:p-24  my-12">
@@ -57,7 +61,7 @@ const CursoProyectoEjecucionVivienda = () => {
         </p>
         <br></br>
         <p>Yo buscaba empresa de reformas.</p>
-        <p> Mi amiga en una empresa de reformas buscaba cliente. </p>
+        <p> Mi amiga (en una empresa de reformas) buscaba cliente. </p>
         <p> Más match que tinder.</p>
         <br></br>
         <p>
@@ -146,22 +150,20 @@ const CursoProyectoEjecucionVivienda = () => {
           recibirá serán calidades de mierda.{" "}
         </p>
         <p>
-          Y tú lo que recibirás será malos modos, de tu cliente o de tu jefe si
-          trabajas para otro, tener que pagar para enmendar el error.
+          Y tú lo que recibirás será malos modos, o tener que pagar para
+          enmendar el error, o entrar en pleitos por no cumplir contrato, o
+          puede que tu jefe te despida (si tus cagadas son recurrentes).
         </p>
         <p>
-          {" "}
-          Puede que entrar en pleitos por no cumplir contrato, puede que tu jefe
-          te despida (si tus cagadas son recurrentes) y lo peor en nuestra
-          opinión, una bajada enorme de tu credibilidad profesional. De tu
-          estatus.{" "}
+          O lo peor en nuestra opinión, una bajada enorme de tu credibilidad
+          profesional. De tu estatus.
         </p>
         <br></br>
         <br></br>
         <div className="flex justify-center">
           <img
             className="text-center"
-            src={"/img/meme-ventilador.jpg"}
+            src={"/img/meme-escaleras.jpg"}
             alt="Imagen meme ventilador"
             width={400}
             height={200}
@@ -210,8 +212,8 @@ const CursoProyectoEjecucionVivienda = () => {
               Todos los planos que debe tener tu proyecto de ejecución de
               reformas / decoracion / interiorismo y que debes incluir en ellos,{" "}
             </b>{" "}
-            si haces esto trasnmitirás una sensación de profesionalidad aunque
-            no hayas trabajado nunca en ningún estudio o no hayas tenido ningún
+             si haces esto transmitirás sensación de profesionalidad aunque no
+            hayas trabajado nunca en ningún estudio o no hayas tenido ningún
             cliente.
           </li>
 
@@ -225,7 +227,7 @@ const CursoProyectoEjecucionVivienda = () => {
           </li>
           <li>
             <b>
-              La manera mas sencilla y rápida de hacer un plano de demoliciones{" "}
+              La manera más sencilla y rápida de hacer un plano de demoliciones{" "}
             </b>{" "}
             y quedarte tranquilo porque no se te ha olvidado nada.
           </li>
@@ -248,9 +250,9 @@ const CursoProyectoEjecucionVivienda = () => {
 
           <li>
             El motivo por el que los Arquitectos (los que presumen de sacarse la
-            carrera en 9 años) te llaman “vende muebles” o “ coloca papel
-            pintado”, y el sutil cambio que hará que te respeten, incluso que te
-            envidien.
+            carrera en 9 años) llaman “vende muebles” o “ coloca papel pintado”
+            a los interioristas, y el sutil cambio que hará que te respeten,
+            incluso que te envidien.
           </li>
 
           <li>
@@ -379,40 +381,54 @@ const CursoProyectoEjecucionVivienda = () => {
         <br></br>
         <br></br>
         <p>
-          Todas la personas que compran reciben un email con una direción web y
-          una contraseña privada.
+          Todas la personas que compran reciben un email exclusivo con una
+          dirección web y una contraseña privada.
         </p>
         <p>En esa web privada pueden ver el curso de 2 horas y 22 minutos.</p>
 
         <p>
-          En esa web tambien se puede descargar el pdf del proyecto, y ver las
-          preguntas que han tenido otras personas en el curso y las respuestas
+          En esa web también se puede descargar el pdf del proyecto, y ver las
+          dudas resueltas que ya han tenido otras personas que han comprado.
         </p>
         <p>
-          En esta web tambien se puede{" "}
+          Pero lo que más valor contiene esta web… es que podrás{" "}
           <b>descargar el archivo dgw del proyecto.</b>{" "}
         </p>
-        <p>El orignal; con sus capas, sus bloques, sus cotas.</p>
+
+        <p>
+          Con sus capas profesionales, sus bloques dinámicos, sus páginas y
+          configuración de impresión configuradas, con sus cotas y texto
+          anotativo...
+        </p>
         <p>Todo configurado para que se vea perfecto.</p>
         <p>
-          Algunas personas usaran este archivo para crearse una plantilla
-          profesional donde realizar sus proyectos, reutilizaran los bloques,
-          aprovecharan la configuración de cotas
+          Algunas personas usarán este archivo para crearse su propia plantilla
+          profesional donde realizar sus proyectos. Reutilizarán los bloques.
+          Aprovecharán la configuración del archivo.
         </p>
         <p>
-          Crearán una plantilla que les puede ahorrar mucho tiempo y dinero.
-        </p>
-        <p>Otros no lo harán.</p>
-        <p>
-          El curso incluye un directo donde Laura te enseñará como usar archivo
-          .dwg de forma profesional.
+          <b>
+            Crearán una plantilla que les puede ahorrar mucho tiempo, y dinero.
+          </b>
         </p>
         <p>
-          Puedes pensar que ya sabes Autocad, pero este archivo y ese directo es
-          de alto nivel.
+          {" "}
+          <b>Otros no lo harán.</b>
         </p>
-        <p>Solo eso ya vale el precio del curso.</p>
-        <p></p>
+        <p>
+          Por si tenías dudas, solo ese archivo ya vale el precio entero del
+          curso. Si no, te invitamos a mirar cuánto cuesta una plantilla de
+          autocad profesional para arquitectos o interioristas.
+        </p>
+
+        <StripeButton
+          urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
+          price={STRIPE_BUTTON_CONFIG.price}
+          title={STRIPE_BUTTON_CONFIG.title}
+          isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
+        >
+          {STRIPE_BUTTON_CONFIG.buttonText}
+        </StripeButton>
         <br></br>
         <br></br>
         <h3 className="font-bold text-4xl pb-4 pt-8"> Preguntas frecuentes</h3>
@@ -447,71 +463,51 @@ const CursoProyectoEjecucionVivienda = () => {
             Es una vivienda estándar de 70m2 aprox, en el centro de Valencia,
             séptima planta. Es decir, si haces o quieres hacer reformas de
             vivienda, los problemas que contamos son a los que tú también te
-            enfrentarás.{" "}
+            enfrentarás.
           </p>
         </div>
         <div className="pb-8">
           <h4 className="font-bold text-3xl ">
             {" "}
-            ¿Cómo es el curso? ¿Cómo funciona?
+            ¿Qué contiene realmente el curso? ¿Cómo funciona?
           </h4>
           <br></br>
           <p>
-            Hace unos meses hicimos un taller en directo con este contenido.
-          </p>
-          <p>
-            El curso es la grabación del taller, ademas de el pdf del proyecto
-            para que puedas imprimirlo, soporte para dudas, y el archivo dwg.
+            En cuanto compras recibes un email exclusivo con una dirección web y
+            una contraseña privada. En esa web privada encontrarás todo el
+            contenido:{" "}
           </p>
 
-          <p>
-            El archivo dwg con sus bloques, todo ordenado con capas, tendrás el
-            archivo orginal del proyecto para que puedas usarlo como plantilla
-            en tus proyectos.
-          </p>
-          <p>
-            Por si te lo preguntas, el taller no lo vamos a volver a repetir
-            nunca más.{" "}
-          </p>
-          <p>
-            La única forma de acceder a esta información, es y será mediante
-            este curso.
-          </p>
-
-          <p>
-            Una vez realices la compra te llegará un email con una dirección web
-            y una contraseña privada{" "}
-          </p>
-          <p>En esa dirección web privada podrás ver: </p>
           <ul className="mb-2">
-            <li className="pb-2"> La grabación del directo</li>
-            <li className="pb-2"> El pdf del proyecto para descargar</li>
             <li className="pb-2">
-              El <b>dwg original</b> del proyecto para descargar
+              {" "}
+              El pdf del proyecto de ejecución completo para descargar.
             </li>
             <li className="pb-2">
-              Todas las dudas que nos han hecho y las respuestas
+              La grabación del curso: un vídeo de 2 horas y 22 minutos. Nuestro
+              consejo es que imprimas el pdf (si eres de escribir a mano), para
+              que puedas tomar notas en el mismo pdf mientras ves el curso. Si
+              eres digital, te recomendamos tener el pdf abierto para poder
+              hacer anotaciones encima. Damos mucho contenido, lo agradecerás.
+            </li>
+            <li className="pb-2">El .dwg del proyecto para descargar</li>
+            <li className="pb-2">Soporte durante 30 días. </li>
+            <li className="pb-2">
+              Además de todo esto, haremos un directo el {FECHA_DIRECTO}, donde
+              podrás preguntarnos directamente dudas que tengas, y
+              solucionaremos tanto las tuyas como las que nos hayan enviado
+              otros clientes. Si no puedes estar, te enviaremos la grabación.{" "}
             </li>
           </ul>
-          <p>
-            Además de todo esto, Laura va hacer un directo para explicarte el
-            archivo dwg
-          </p>
-          <p>
-            {" "}
-            <i>¿Pero si yo ya se Autocad? Lo uso a diario</i>
-          </p>
-          <p>
-            Puedes pensar que ya sabes Autocad, pero este archivo y ese directo
-            es de alto nivel.
-          </p>
         </div>
         <div className="pb-8">
           <h4 className="font-bold text-3xl "> ¿Cuanto dura el curso?</h4>
           <br></br>
           <p>
-            El curso es una grabación en directo que dura 2 horas y 22 minutos,
-            no lo hicimos queriendo, fue el tiempo que necesitamos.
+            El curso es una grabación que dura 2 horas y 22 minutos. No lo
+            hicimos queriendo, fue el tiempo que necesitamos. Seguramente tú
+            necesites más tiempo para tomar notas o volver a ver partes. Repito.
+            Damos mucho valor, agradecerás que esté grabado.
           </p>
         </div>
         <div className="pb-8">
@@ -522,7 +518,8 @@ const CursoProyectoEjecucionVivienda = () => {
           <p>
             Mínimo dos años, probablemente esté mucho más tiempo porque en
             principio no tenemos pensado retirarlo, pero el compromiso es de dos
-            años como mínimo.
+            años como mínimo. Esto es así porque alojarlo cuesta dinero, nos
+            podemos morir y mil otras cosas.
           </p>
           <p>
             Esto es así porque alojarlo cuesta dinero, nos podemos morir y mil
@@ -534,19 +531,26 @@ const CursoProyectoEjecucionVivienda = () => {
             ¿Tiene soporte? ¿Y si tengo dudas?
           </h4>
           <br></br>
-          <p>Resolveremos dudas. </p>
           <p>
-            Cuando realices la comprá, nos podrás enviar tus dudas durante un
-            mes. Nos parece tiempo más que de sobra para que puedas hacer el
-            curso y escribirnos todas las dudas que tengas. Todas las dudas y
-            las respuestas, las compartiremos. O sea, no solo contestaremos a tu
-            duda, si no que podrás ver las preguntas de otras personas y que
-            seguramente también te ayuden.{" "}
+            <b>Tienes 30 días de soporte desde que realizas la compra. </b>
           </p>
           <p>
-            Responderemos dudas que tengan que ver con el curso. Me explico. Si
-            me preguntas cómo dibujar un salón para el proyecto de tu
-            tía-abuela… Pues no.{" "}
+            Nos parece tiempo más que de sobra para que puedas ver el curso,
+            ponerlo en práctica, y escribirnos todas las dudas que tengas por
+            email.
+          </p>
+          <p>
+            Además del soporte de 30 días por email, haremos un directo el {""}
+            {FECHA_DIRECTO}, donde podrás preguntarnos directamente dudas que te
+            surjan. No solo solucionaremos las tuyas, también podrás ver las
+            dudas de otros clientes. Si no puedes estar no te preocupes, te
+            enviaremos la grabación.
+          </p>
+          <p>
+            Esto es así porque en otros cursos ya hemos comprobado que la
+            resolución de dudas grupal aporta muchísimo... Puede que tú no
+            tengas más dudas (ahora), pero quizá en el proyecto que hagas el mes
+            siguiente te sirva lo que ha preguntado otro cliente.{" "}
           </p>
         </div>
         <div className="pb-8">
@@ -618,10 +622,14 @@ const CursoProyectoEjecucionVivienda = () => {
           </h4>
           <br></br>
           <p>
-            Sí. Te vamos a enseñar algo mucho más importante que manejar un
-            programa.
+            Compartimos el .dgw del proyecto, que es el formato de autocad. Pero
+            si tú no lo gastas no pasa nada, el valor del curso lo recibes igual
+            y es aplicable a cualquier otro programa que uses.
           </p>
-          <p>Da igual el programa que uses.</p>
+          <p>
+            Te vamos a enseñar algo mucho más importante que manejar un
+            programa.{" "}
+          </p>
           <p>De hecho como si haces tus proyectos a mano.</p>
         </div>
         <div className="pb-8">
@@ -672,6 +680,14 @@ const CursoProyectoEjecucionVivienda = () => {
         >
           {STRIPE_BUTTON_CONFIG.buttonText}
         </StripeButton>
+        <br></br>
+        <br></br>
+        <p>Opinión no solicitada del curso:</p>
+        <q className="px-6 mb-12 block">
+          Buenas Laura y Joaquín, El curso es de 100!! Os explicáis de forma
+          clara y sobre el PDF no tengo palabras :) Espero el siguiente curso
+          con ganas (...).
+        </q>
       </div>
     </div>
   );
