@@ -3,10 +3,10 @@ import SubscriptionForm from "../components/Form";
 const About = () => {
   const FORM_DATA = {
     titleForm: "",
-    textButton: "Suscribirme",
-    label: "subs-home",
-    id: "fieldjkthny",
-    name: "cm-f-jkthny",
+    textButton: "Suscribirme y recibir regalo",
+    label: "Audio-bienvenida",
+    id: "fieldtridtuj",
+    name: "cm-f-tridtuj",
   };
   return (
     <div className="w-full font-playfair">

@@ -55,9 +55,19 @@ const SubscriptionForm = ({ titleForm, textButton, label, id, name }) => {
                   type="hidden"
                   value="true"
                 ></input>
+                <div>
+                  <input
+                    type="hidden"
+                    value="1"
+                    aria-label={label}
+                    id={id}
+                    maxLength="200"
+                    name={name}
+                  ></input>
+                </div>
 
                 <button
-                  className="w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-xl  duration-150 hover:opacity-90 "
+                  className="w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-xl duration-150 hover:opacity-90 "
                   type="submit"
                 >
                   {textButton}

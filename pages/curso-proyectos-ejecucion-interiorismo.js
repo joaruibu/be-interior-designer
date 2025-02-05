@@ -1,12 +1,12 @@
 import React from "react";
 import StripeButton from "../components/StripeButton";
 
-const CursoProyectoEjecucionVivienda = () => {
+const CursoProyectosEjecucionInteriorismo = () => {
   const STRIPE_BUTTON_CONFIG = {
-    title: " Curso proyecto ejecución de vivienda real + dwg",
+    title: " Curso proyecto ejecución de vivienda real",
     buttonText: "Comprar curso",
     price: "190€",
-    isDisabled: true,
+    isDisabled: false,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/session/d9d92fc9fb9db35c730b93b5d219236b9bc151fd/init",
   };
@@ -376,7 +376,8 @@ const CursoProyectoEjecucionVivienda = () => {
         <br></br>
         <br></br>
         <h3 className="font-bold text-4xl pb-4 pt-8">
-          Algunas personas le van a sacar mucho valor a este curso, otras no.
+          Algunas personas le van a sacar mucho valor a este curso, otras,
+          muchísimo.
         </h3>
         <br></br>
         <br></br>
@@ -391,16 +392,28 @@ const CursoProyectoEjecucionVivienda = () => {
           dudas resueltas que ya han tenido otras personas que han comprado.
         </p>
         <p>
-          Pero lo que más valor contiene esta web… es que podrás{" "}
-          <b>descargar el archivo dgw del proyecto.</b>{" "}
+          Sólo el pdf, o sea, sólo por tener una referencia real de todo lo que
+          se debe poner en un proyecto de interiorismo de reforma… Ya vale el
+          precio del curso entero.{" "}
+          <b>
+            {" "}
+            Creo que no hace falta que te expliquemos el porqué y todo el tiempo
+            y dinero que puedes ahorrar gracias a disponer de esta referencia.
+          </b>
         </p>
+        <br></br>
+        <p>Pero aún hay otra cosa a la que puedes sacarle más partido…</p>
 
         <p>
-          Con sus capas profesionales, sus bloques dinámicos, sus páginas y
-          configuración de impresión configuradas, con sus cotas y texto
-          anotativo...
+          Y es que podrás <b> descargar el archivo .dgw del proyecto.</b>
         </p>
-        <p>Todo configurado para que se vea perfecto.</p>
+        <p>
+          Con sus capas profesionales, sus bloques dinámicos, las páginas con
+          las capas ya configuradas en cada viewport según el plano, la
+          configuración de impresión en A3, con sus cotas anotativas, su texto
+          anotativo, todo configurado en metros, leyendas de instalaciones
+          listas…
+        </p>
         <p>
           Algunas personas usarán este archivo para crearse su propia plantilla
           profesional donde realizar sus proyectos. Reutilizarán los bloques.
@@ -408,7 +421,8 @@ const CursoProyectoEjecucionVivienda = () => {
         </p>
         <p>
           <b>
-            Crearán una plantilla que les puede ahorrar mucho tiempo, y dinero.
+            Algunas personas, crearán una plantilla que les puede ahorrar mucho
+            tiempo, y dinero.
           </b>
         </p>
         <p>
@@ -622,10 +636,19 @@ const CursoProyectoEjecucionVivienda = () => {
           </h4>
           <br></br>
           <p>
-            Compartimos el .dgw del proyecto, que es el formato de autocad. Pero
-            si tú no lo gastas no pasa nada, el valor del curso lo recibes igual
-            y es aplicable a cualquier otro programa que uses.
+            Compartimos el .dgw del proyecto (que es el formato de autocad).
+            Pero esto es solo “un además” en todo lo que el curso aporta. Ten en
+            cuenta que debes tener conocimientos de autocad (por ejemplo saber
+            trabajar con ventanas gráficas y cotas y texto anotativo) para
+            sacarle partido a este archivo. Pero si tú no gastas autocad o no
+            tienes el nivel no pasa nada,{" "}
+            <b>
+              {" "}
+              el valor del curso lo recibes igual y es aplicable a cualquier
+              otro programa que uses.
+            </b>
           </p>
+          <p>Repito, aplicable a cualquier-otro-programa-que-uses.</p>
           <p>
             Te vamos a enseñar algo mucho más importante que manejar un
             programa.{" "}
@@ -693,4 +716,4 @@ const CursoProyectoEjecucionVivienda = () => {
   );
 };
 
-export default CursoProyectoEjecucionVivienda;
+export default CursoProyectosEjecucionInteriorismo;

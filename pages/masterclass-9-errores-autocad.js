@@ -18,12 +18,12 @@ const MasterClass9ErroresAutocad = () => {
       <div className="bg-stone-50 p-4 sm:p-24  my-12">
         <header>
           <p className="text-center text-bid-wine font-bold">
-            *Suscripción confirmada. <br></br>Ya tienes los bloques en tu email{" "}
+            *Suscripción confirmada. <br></br>Ya tienes el regalo en tu email{" "}
             (pueden tardar unos minutos en llegar, pero llegan).
           </p>
           <br></br> <br></br>{" "}
           <p className="text-4xl underline  text-left  pb-12 font-bold ">
-            Si piensas usar tus bloques esto te interesa...
+            Si usas Autcad esto te interesa mucho...
           </p>
           <div className="border rounded-lg p-4  border-4 text-center border-bid-terracotta my-8">
             <p className="font-bold sm:text-3xl text-bid-terracotta pb-0">

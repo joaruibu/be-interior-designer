@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import StripeButton from "../components/StripeButton";
+import { useRouter } from "next/navigation";
 
 const TallerProyectoEjecucionVivienda = () => {
+  const { push } = useRouter();
+
+  // Página del taller en directo, redirigir a la página del curso grabado
+  useEffect(() => {
+    push("/curso-proyecto-ejecucion-vivienda-vlc");
+  }, []);
+
+  return;
+
   const STRIPE_BUTTON_CONFIG = {
     title: " Taller proyecto ejecución de vivienda",
     buttonText: "Upss, llegas tarde",
