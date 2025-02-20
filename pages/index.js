@@ -4,26 +4,24 @@ const Home = () => {
   const FORM_DATA = {
     titleForm: "",
     textButton: "Suscribirme",
-    label: "Bloques-Bienvenida ",
-    id: "fieldtrdhily",
-    name: "cm-f-trdhily",
+    label: "Audio-bienvenida",
+    id: "fieldtridtuj",
+    name: "cm-f-tridtuj",
   };
   return (
     <div className="w-full font-playfair">
-      <div className="bg-stone-50 p-4 sm:p-24  my-12">
+      <div className="bg-stone-50 p-4 sm:p-24 my-12">
         <header>
-          <h1 className="text-4xl sm:text-5xl  sm:leading-[60px] text-left  pb-24  font-bold">
-            Esto estresa a mucha gente.
+          <h1 className="text-4xl sm:text-5xl  sm:leading-[60px] text-left  pb-16 font-bold">
+            Esto que te vamos a contar es muy bueno para ti si eres Interiorista
+            o Arquitecto.
           </h1>
         </header>
-        <h2 className="text-2xl font-semibold text-left  pb-16">
-          Igual a ti no.
-          <br></br>
-          <br></br>
-          Puede ser.
+        <h2 className="text-2xl font-semibold text-left pb-24">
+          Es algo que estresa a mucha gente.
         </h2>
 
-        <p> También puede ser que esto te interese:</p>
+        <p> Ojo, que esto es importante. Ojo y pon atención: </p>
         <br></br>
         <p>Hablamos de arquitectura.</p>
         <p>
@@ -132,9 +130,9 @@ const Home = () => {
         <p>Aclarado eso…</p>
         <br></br>
         <br></br>
-        <p>Cada día escribimos un email con un consejo. </p>
+        <p>Cada semana escribimos un email con un consejo. </p>
         <br></br>
-        <p>Día que estás fuera, consejo que te pierdes.</p>
+        <p>Semana que estás fuera, consejo que te pierdes.</p>
         <br></br>
         <p>
           Si quieres unirte a las miles de personas que los reciben, te apuntas
@@ -165,20 +163,23 @@ const Home = () => {
           bien.
         </p>
         <p>
-          Te digo que soy más maja que las pesetas porque al suscribirte
-          recibirás de regalo un archivo con más de 500 bloques de interiorismo
-          profesional.{" "}
+          Te digo que soy más maja que las pesetas porque{" "}
+          <b>al suscribirte recibirás de regalo un audio privado…</b>
         </p>
         <p>
-          Si eres un Arquitecto con A mayúscula, me dirás que no son bloques de
-          interiorismo sino de Arquitectura con A mayúscula. Bueno, yo tus
-          problemas personales no puedo solucionarlos, el motivo para el que
-          estoy aquí ya te lo he dicho arriba.{" "}
+          Es un audio privado que contiene algo que debes hacer si quieres
+          conseguir o bien más clientes, o bien que te contraten en una
+          entrevista de interiorismo o arquitectura… Algo que nadie hace... 
         </p>
 
+        <p>Algo que hicimos nosotros. Y nos funcionó. Todas las veces.</p>
         <p>
-          Pero igualmente si quieres recibir estos bloques de regalo, es aquí:
+          Si eres un Arquitecto con A mayúscula, me dirás que en arquitectura es
+          diferente y blablabla. Bueno, yo tus problemas personales no puedo
+          solucionarlos, el motivo para el que estoy aquí ya te lo he dicho
+          arriba.{" "}
         </p>
+        <p>En cualquier caso, si quieres recibir este regalo, es aquí: </p>
 
         <SubscriptionForm
           titleForm={FORM_DATA.titleForm}
@@ -243,6 +244,9 @@ const Home = () => {
           Saludos cordiales
         </q>
 
+        <q className="px-6 mb-12 block">
+          Me ha encantado chic@s!!! (…) Las cosas claras! Genial!
+        </q>
         <q className="px-6 mb-12 block">Muchísimas gracias saludos</q>
         <q className="px-6 mb-12 block">muchas gracias!!!!!!!!!!!</q>
         <q className="px-6 mb-12 block">Gracias</q>
@@ -262,6 +266,10 @@ const Home = () => {
           TRABAJAR DISEÑANDO y me han bendecidooo
         </q>
 
+        <q className="font-bold px-6 mb-12 block">
+          El audio privado, es un puntazo!! Estoy creándolo con la casa en donde
+          vivo
+        </q>
         <q className="px-6 mb-12 block">
           muchas gracias por su aporte sos muy amable
         </q>
@@ -278,8 +286,8 @@ const Home = () => {
         <br></br>
         <p>
           En cualquier caso, si tú también quieres recibir nuestro aporte con un
-          consejo diario de arquitectura, y probar los bloques de los que hablan
-          los que ya están dentro… para apuntarte es abajo:{" "}
+          consejo a la seman de arquitectura, y recibir el audio del que hablan
+          los que ya están dentro… para apuntarte es abajo:
         </p>
 
         <SubscriptionForm
