@@ -11,7 +11,7 @@ const CursoProyectosEjecucionInteriorismo = () => {
       "https://lauradearquer.quadernoapp.com/checkout/session/d9d92fc9fb9db35c730b93b5d219236b9bc151fd/init",
   };
 
-  const FECHA_DIRECTO = "sábado 15 de marzo a las 17:00 (Madrid)";
+  const FECHA_DIRECTO = "martes 15 de abril a las 17:00 (Madrid)";
 
   return (
     <div className="w-full font-playfair">
