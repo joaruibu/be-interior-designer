@@ -8,6 +8,8 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
     PASWORD_1: "NoLaPifiesEnTuObra",
   };
 
+  const FECHA_DIRECTO = "martes 15 de abril a las 17:00 (Madrid)";
+
   return (
     <div
       className={`w-full ${
@@ -144,13 +146,25 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
 
             <div className="">
               <h2 className="font-alternate text-3xl font-bold leading-[42px] pb-8">
-                - Directo dudas del curso.
+                - Directo + dudas del curso.
               </h2>
               <br></br>
 
               <p>
-                El directo de resolución de dudas sera el 15 de abril a las
-                17:00 (Madrid).
+                Recuerda que tienes 30 días de soporte por email desde el
+                momento de compra. Escríbenos a{" "}
+                <a
+                  className="text-bid-wine underline"
+                  href="mailto:info@beinteriordesigner.com "
+                >
+                  info@beinteriordesigner.com
+                </a>{" "}
+                con el asunto: SOY UNA MANITAS. Así podremos filtrar el email y
+                darte prioridad cuando nos escribas.
+              </p>
+              <p>
+                Además, haremos el directo de resolución de dudas grupal el{" "}
+                {FECHA_DIRECTO}.
               </p>
               <p>
                 Cuando llegue la hora del directo, clica en el botón de abajo
