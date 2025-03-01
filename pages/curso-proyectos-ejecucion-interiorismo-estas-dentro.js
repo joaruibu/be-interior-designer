@@ -42,7 +42,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
 
             <p className="text-bid-terracotta">
               <i>
-                En esta página damos muchos recursos, no solo el taller. Por
+                En esta página damos muchos recursos, no solo el curso. Por
                 favor,
                 <b>
                   {" "}
@@ -56,7 +56,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
             <br></br>
             <div className=" mb-36">
               <h2 className="font-alternate text-3xl font-bold leading-[52px]">
-                - El Taller.
+                - El Curso.
               </h2>
               <br></br>
               <iframe
@@ -74,7 +74,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
                 className=" my-8 block text-bid-wine font-alternate text-xl font-bold "
               >
                 {" "}
-                Ver índice del taller
+                Ver índice del curso
               </a>
             </div>
 
@@ -149,8 +149,8 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
               <br></br>
 
               <p>
-                El directo de resolución de dudas sábado 15 de marzo a las 17:00
-                (Madrid).
+                El directo de resolución de dudas sera el 15 de abril a las
+                17:00 (Madrid).
               </p>
               <p>
                 Cuando llegue la hora del directo, clica en el botón de abajo
