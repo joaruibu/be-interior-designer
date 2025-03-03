@@ -5,7 +5,7 @@ const CursoProyectosEjecucionInteriorismo = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: " Curso proyecto ejecución de vivienda real",
     buttonText: "Comprar curso",
-    price: "190€",
+    price: "210€",
     isDisabled: false,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/session/d9d92fc9fb9db35c730b93b5d219236b9bc151fd/init",
