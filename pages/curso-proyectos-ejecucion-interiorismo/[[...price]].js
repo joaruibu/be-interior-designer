@@ -1,17 +1,53 @@
 import React from "react";
-import StripeButton from "../components/StripeButton";
+import StripeButton from "../../components/StripeButton";
+import { useRouter } from "next/router";
 
 const CursoProyectosEjecucionInteriorismo = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: " Curso proyecto ejecución de vivienda real",
     buttonText: "Comprar curso",
-    price: "210€",
+    price: "190€",
     isDisabled: false,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/session/d9d92fc9fb9db35c730b93b5d219236b9bc151fd/init",
   };
 
   const FECHA_DIRECTO = "martes 15 de abril a las 17:00 (Madrid)";
+
+  const router = useRouter();
+  const price = Array.isArray(router.query.price)
+    ? router.query.price[0]
+    : router.query.price;
+
+  const generateStripeConfig = (price) => {
+    if (price === "bid-54") {
+      return {
+        price: "190€",
+        urlStripe:
+          "https://lauradearquer.quadernoapp.com/checkout/link/8b72e1e49782affe919cb2cf07835af3eb5be17d",
+      };
+    }
+
+    if (price === "bid-57") {
+      return {
+        price: "220€",
+        urlStripe:
+          "https://lauradearquer.quadernoapp.com/checkout/link/8806052aac71553d904d1cba513d2f0e38605768",
+      };
+    }
+
+    return {
+      // bid-51
+      price: "210€",
+      urlStripe:
+        "https://lauradearquer.quadernoapp.com/checkout/link/d9d92fc9fb9db35c730b93b5d219236b9bc151fd",
+    };
+  };
+
+  const config = {
+    ...STRIPE_BUTTON_CONFIG,
+    ...generateStripeConfig(price),
+  };
 
   return (
     <div className="w-full font-playfair">
@@ -188,12 +224,12 @@ const CursoProyectosEjecucionInteriorismo = () => {
           tú mismo, o… Comprar este curso y aprenderlo en una tarde.
         </h2>
         <StripeButton
-          urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
-          price={STRIPE_BUTTON_CONFIG.price}
-          title={STRIPE_BUTTON_CONFIG.title}
-          isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
+          urlStripe={config.urlStripe}
+          price={config.price}
+          title={config.title}
+          isDisabled={config.isDisabled}
         >
-          {STRIPE_BUTTON_CONFIG.buttonText}
+          {config.buttonText}
         </StripeButton>
         <br></br>
         <br></br>
@@ -365,12 +401,12 @@ const CursoProyectosEjecucionInteriorismo = () => {
           </li>
         </ul>
         <StripeButton
-          urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
-          price={STRIPE_BUTTON_CONFIG.price}
-          title={STRIPE_BUTTON_CONFIG.title}
-          isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
+          urlStripe={config.urlStripe}
+          price={config.price}
+          title={config.title}
+          isDisabled={config.isDisabled}
         >
-          {STRIPE_BUTTON_CONFIG.buttonText}
+          {config.buttonText}
         </StripeButton>
         <br></br>
         <br></br>
@@ -436,12 +472,12 @@ const CursoProyectosEjecucionInteriorismo = () => {
         </p>
 
         <StripeButton
-          urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
-          price={STRIPE_BUTTON_CONFIG.price}
-          title={STRIPE_BUTTON_CONFIG.title}
-          isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
+          urlStripe={config.urlStripe}
+          price={config.price}
+          title={config.title}
+          isDisabled={config.isDisabled}
         >
-          {STRIPE_BUTTON_CONFIG.buttonText}
+          {config.buttonText}
         </StripeButton>
         <br></br>
         <br></br>
@@ -572,10 +608,7 @@ const CursoProyectosEjecucionInteriorismo = () => {
             ¿Cuál es su precio? ¿Bajará alguna vez?
           </h4>
           <br></br>
-          <p>
-            El precio de este curso es de {STRIPE_BUTTON_CONFIG.price} y nunca
-            bajará.
-          </p>
+          <p>El precio de este curso es de {config.price} y nunca bajará.</p>
           <p>
             Nunca hacemos ofertas, ni black fridays, ni rebajas, ni nada. Es
             más, si de algo puedes estar seguro es que con el paso del tiempo el
@@ -696,12 +729,12 @@ const CursoProyectosEjecucionInteriorismo = () => {
           <p>Dicho esto, la decisión por supuesto, es tuya. </p>
         </div>
         <StripeButton
-          urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
-          price={STRIPE_BUTTON_CONFIG.price}
-          title={STRIPE_BUTTON_CONFIG.title}
-          isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
+          urlStripe={config.urlStripe}
+          price={config.price}
+          title={config.title}
+          isDisabled={config.isDisabled}
         >
-          {STRIPE_BUTTON_CONFIG.buttonText}
+          {config.buttonText}
         </StripeButton>
         <br></br>
         <br></br>
