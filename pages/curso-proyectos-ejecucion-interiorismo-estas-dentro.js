@@ -8,7 +8,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
     PASWORD_1: "NoLaPifiesEnTuObra",
   };
 
-  const FECHA_DIRECTO = "martes 15 de abril a las 17:00 (Madrid)";
+  const FECHA_DIRECTO = "martes 18 de mayo a las 17:00 (Madrid)";
 
   return (
     <div
