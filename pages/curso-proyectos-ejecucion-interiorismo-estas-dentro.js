@@ -8,7 +8,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
     PASWORD_1: "NoLaPifiesEnTuObra",
   };
 
-  const FECHA_DIRECTO = "martes 18 de mayo a las 17:00 (Madrid)";
+  const FECHA_DIRECTO = "martes 15 de abril a las 17:00 (Madrid)";
 
   return (
     <div
@@ -178,7 +178,10 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
               </p>
               <br></br>
 
-              <a href={""} className="pointer-events-none	">
+              <a
+                href={"https://meet.google.com/kvg-ugde-zeo"}
+                className="pointer-events-none"
+              >
                 <button
                   className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 opacity-20`}
                 >
