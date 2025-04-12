@@ -546,7 +546,7 @@ const CursoProyectosEjecucionInteriorismo = () => {
               Además de todo esto, haremos un directo el {FECHA_DIRECTO}, donde
               podrás preguntarnos directamente dudas que tengas, y
               solucionaremos tanto las tuyas como las que nos hayan enviado
-              otros clientes. Si no puedes estar, te enviaremos la grabación.{" "}
+              otros clientes.{" "}
             </li>
           </ul>
         </div>
@@ -593,8 +593,7 @@ const CursoProyectosEjecucionInteriorismo = () => {
             Además del soporte de 30 días por email, haremos un directo el {""}
             {FECHA_DIRECTO}, donde podrás preguntarnos directamente dudas que te
             surjan. No solo solucionaremos las tuyas, también podrás ver las
-            dudas de otros clientes. Si no puedes estar no te preocupes, te
-            enviaremos la grabación.
+            dudas de otros clientes.
           </p>
           <p>
             Esto es así porque en otros cursos ya hemos comprobado que la

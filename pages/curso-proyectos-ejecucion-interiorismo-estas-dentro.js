@@ -178,12 +178,9 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
               </p>
               <br></br>
 
-              <a
-                href={"https://meet.google.com/kvg-ugde-zeo"}
-                className="pointer-events-none"
-              >
+              <a href={"https://meet.google.com/kvg-ugde-zeo"} className="">
                 <button
-                  className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 opacity-20`}
+                  className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
                 >
                   Acceder al directo de dudas
                 </button>
