@@ -4,18 +4,23 @@ import FormAccesContent from "../components/FormAccesContent";
 const TallerProyectoEjecucionViviendaValenciaDentro = () => {
   const [password, setPassword] = useState("");
 
-  const PASWORDS = {
+  const PASSWORDS = {
+    PASSWORD_0: "33333",
     PASWORD_1: "NoLaCaguesEnTuObra",
+  };
+
+  const isCorrectPassword = (password) => {
+    return !Object.values(PASSWORDS).includes(password);
   };
 
   return (
     <div
       className={`w-full ${
-        password !== PASWORDS.PASWORD_1 ? "h-[90vh]" : ""
+        isCorrectPassword(password) ? "h-[90vh]" : ""
       } max-w-4xl place-content-center font-playfair`}
     >
       <div className="bg-stone-50 p-4 w-full my-8 px-4 grid place-content-center leading-10">
-        {password !== PASWORDS.PASWORD_1 ? (
+        {isCorrectPassword(password) ? (
           <>
             <h1 className="text-5xl font-playfair text-center">
               Acceso al taller en directo: Proyecto de Ejecución de interiorismo
@@ -23,7 +28,7 @@ const TallerProyectoEjecucionViviendaValenciaDentro = () => {
             </h1>
             <br />
             <FormAccesContent
-              correctPassword={PASWORDS}
+              correctPassword={PASSWORDS}
               setPassword={setPassword}
               password={password}
             />

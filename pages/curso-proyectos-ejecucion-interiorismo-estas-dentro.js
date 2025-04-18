@@ -1,23 +1,35 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import FormAccesContent from "../components/FormAccesContent";
-
+import Dropdown from "../components/Dropdown";
 const CursoProyectosEjecucionInteriorismoDentro = () => {
   const [password, setPassword] = useState("");
 
-  const PASWORDS = {
+  const PASSWORDS = {
+    PASSWORD_0: "33333",
     PASWORD_1: "NoLaPifiesEnTuObra",
   };
 
-  const FECHA_DIRECTO = "martes 15 de abril a las 17:00 (Madrid)";
+  const FECHA_DIRECTO = "martes 18 de mayo a las 17:00 (Madrid)";
+
+  const eventsRecords = [
+    {
+      title: "Grabación resolución dudas 15 abril",
+      link: "https://drive.google.com/file/d/1mmkNrvmKZVTnVpnLjKwJaHcYlnwPSGdE/preview",
+    },
+  ];
+
+  const isCorrectPassword = (password) => {
+    return !Object.values(PASSWORDS).includes(password);
+  };
 
   return (
     <div
       className={`w-full ${
-        password !== PASWORDS.PASWORD_1 ? "h-[90vh]" : ""
+        isCorrectPassword(password) ? "h-[90vh]" : ""
       } max-w-4xl place-content-center font-playfair`}
     >
       <div className="bg-stone-50 p-4 w-full my-8 px-4 grid place-content-center leading-10">
-        {password !== PASWORDS.PASWORD_1 ? (
+        {isCorrectPassword(password) ? (
           <>
             <h1 className="text-5xl font-playfair text-center">
               Acceso al curso: Proyecto de Ejecución de interiorismo vivienda
@@ -25,7 +37,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
             </h1>
             <br />
             <FormAccesContent
-              correctPassword={PASWORDS}
+              correctPassword={PASSWORDS}
               setPassword={setPassword}
               password={password}
             />
@@ -178,13 +190,33 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
               </p>
               <br></br>
 
-              <a href={"https://meet.google.com/kvg-ugde-zeo"} className="">
+              <a href={""} className="">
                 <button
-                  className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150 hover:opacity-90 `}
+                  disabled
+                  className={`w-full font-playfair bg-bid-wine tracking-widest text-stone-50  py-3 text-2xl  duration-150   opacity-20`}
                 >
                   Acceder al directo de dudas
                 </button>
               </a>
+
+              <div className="pt-12">
+                {eventsRecords.map((event) => {
+                  return (
+                    <div className="mt-12" key={event.title}>
+                      <Dropdown title={event.title}>
+                        <div className="relative w-full max-w-2xl mx-auto aspect-video">
+                          <iframe
+                            src={event.link}
+                            className="absolute inset-0 w-full h-full"
+                            frameBorder="0"
+                            allowFullScreen
+                          ></iframe>
+                        </div>
+                      </Dropdown>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
             <div className="pl-16">
               <p className="pt-24">Esperamos que lo aproveches mucho.</p>

@@ -5,6 +5,7 @@ const AudioPrivadoProyectoEjecucionEstasDentro = () => {
   const [password, setPassword] = useState("");
 
   const PASSWORDS = {
+    PASSWORD_0: "33333",
     PASSWORD_1: "DejaDeSerUnBecario",
   };
 
