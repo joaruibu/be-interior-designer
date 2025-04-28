@@ -64,6 +64,15 @@ const SubscriptionForm = ({ titleForm, textButton, label, id, name }) => {
                     maxLength="200"
                     name={name}
                   ></input>
+                  {/* Este input mete por defecto el label para la automatización de venta del curso PE, si queremos que al suscribirse no entren en esta automatización por defecto, habrá que editarlo */}
+                  <input
+                    type="hidden"
+                    value="1"
+                    aria-label="trigger-venta-curso-PE"
+                    id="fieldtytrod"
+                    maxLength="200"
+                    name="cm-f-tytrod"
+                  ></input>
                 </div>
 
                 <button
