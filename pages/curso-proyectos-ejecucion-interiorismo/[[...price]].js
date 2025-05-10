@@ -1,6 +1,7 @@
 import React from "react";
 import StripeButton from "../../components/StripeButton";
 import { useRouter } from "next/router";
+import Review from "../../components/Review";
 
 const CursoProyectosEjecucionInteriorismo = () => {
   const STRIPE_BUTTON_CONFIG = {
@@ -223,6 +224,14 @@ const CursoProyectosEjecucionInteriorismo = () => {
           Puedes aprender estos errores con años de experiencia, cometiéndolos
           tú mismo, o… Comprar este curso y aprenderlo en una tarde.
         </h2>
+
+        <Review name="'Naroa'" job="Diseñadora de Interiores">
+          {" "}
+          Buenas Laura y Joaquín, El curso es de 100!! Os explicáis de forma
+          clara y sobre el DWG no tengo palabras :) Espero el siguiente curso
+          con ganas (...).
+        </Review>
+
         <StripeButton
           urlStripe={config.urlStripe}
           price={config.price}
@@ -410,6 +419,19 @@ const CursoProyectosEjecucionInteriorismo = () => {
         </StripeButton>
         <br></br>
         <br></br>
+
+        <Review
+          name="'Diana'"
+          job="Interior Designer con 7 años de experiencia"
+        >
+          Quería daros las gracias por el maravilloso taller, que aunque
+          sencillo, tiene todo lo que necesitaba para resolver dudas. (...) A si
+          que gracias, por tomaros el tiempo en ayudar a tantos profesionales
+          perdidos en el sector. Por lo menos ya con lo que se sabe, y con
+          muchos conceptos aclarados de organización sobre todo. Una puede crear
+          una estructura sólida para crear un proyecto, que eso es muchas veces
+          lo que minaba mi confianza.
+        </Review>
         <br></br>
         <h3 className="font-bold text-4xl pb-4 pt-8">
           Algunas personas le van a sacar mucho valor a este curso, otras,
@@ -736,13 +758,6 @@ const CursoProyectosEjecucionInteriorismo = () => {
           {config.buttonText}
         </StripeButton>
         <br></br>
-        <br></br>
-        <p>Opinión no solicitada del curso:</p>
-        <q className="px-6 mb-12 block">
-          Buenas Laura y Joaquín, El curso es de 100!! Os explicáis de forma
-          clara y sobre el PDF no tengo palabras :) Espero el siguiente curso
-          con ganas (...).
-        </q>
       </div>
     </div>
   );
