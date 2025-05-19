@@ -39,7 +39,7 @@ const CursoProyectosEjecucionInteriorismo = () => {
 
     return {
       // bid-51
-      price: "210€",
+      price: "230€",
       urlStripe:
         "https://lauradearquer.quadernoapp.com/checkout/link/d9d92fc9fb9db35c730b93b5d219236b9bc151fd",
     };
