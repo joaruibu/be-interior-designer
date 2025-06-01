@@ -9,7 +9,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
     PASWORD_1: "NoLaPifiesEnTuObra",
   };
 
-  const FECHA_DIRECTO = "miercoles 18 de junio a las 17:00 (Madrid)";
+  const FECHA_DIRECTO = " 18 de julio a las 17:00 (Madrid)";
 
   const eventsRecords = [
     {
