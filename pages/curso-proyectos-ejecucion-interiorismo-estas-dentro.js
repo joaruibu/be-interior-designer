@@ -14,7 +14,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
   const eventsRecords = [
     {
       title: "Grabación resolución dudas 15 abril",
-      link: "https://drive.google.com/file/d/1mmkNrvmKZVTnVpnLjKwJaHcYlnwPSGdE/preview",
+      link: "https://drive.google.com/file/d/1WxrCF8ZiQytHfPpsl6WJLCl7LKMm5ipa/preview",
     },
   ];
 
@@ -74,7 +74,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
               </h2>
               <br></br>
               <iframe
-                src="https://drive.google.com/file/d/114G2i-8AbuDklJy2OEn2sTARS9rDp-Eg/preview"
+                src="https://drive.google.com/file/d/1-X02SVhP84S-1KNgTZB545wA428-lR_f/preview"
                 width="100%"
                 height="432px"
                 allowFullScreen
@@ -99,7 +99,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
               <br></br>
               <a
                 href={
-                  "https://drive.google.com/uc?export=download&id=1Hre5coRy04o4lYC-8CNhRZvARA8tCB6P"
+                  "https://drive.google.com/uc?export=download&id=1bHs-Z7Ey6qMfUnXc3hLkJs4ovg79hPPO"
                 }
                 className=""
               >
@@ -118,7 +118,7 @@ const CursoProyectosEjecucionInteriorismoDentro = () => {
               <br></br>
               <a
                 href={
-                  "https://drive.google.com/uc?export=download&id=17mrc7Uj9HFMKFJZcMv5KhWcD-FJmnyhF"
+                  "https://drive.google.com/uc?export=download&id=1ZvEscGzjm5A_exJ9j3wBFCQ4U9Z6Kd6z"
                 }
                 className=""
               >
