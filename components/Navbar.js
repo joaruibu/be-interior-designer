@@ -17,33 +17,30 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className=" flex items-center w-full justify-between ">
-          <Link href="/" legacyBehavior prefetch={false}>
-            <a className=" flex items-center gap-x-2 text-black ">
-              <span className="sr-only">Be Interior Designer</span>
-              <span className=" hidden sm:block sm:text-2xl font-bold text-bid-wine font-bigilla">
-                Be Interior Designer
-              </span>
-              <span className=" block sm:hidden text-3xl font-bold text-bid-wine font-bigilla">
-                BID
-              </span>
-            </a>
+          <Link href="/" prefetch={false} className=" flex items-center gap-x-2 text-black ">
+
+            <span className="sr-only">Be Interior Designer</span>
+            <span className=" hidden sm:block sm:text-2xl font-bold text-bid-wine font-bigilla">
+              Be Interior Designer
+            </span>
+            <span className=" block sm:hidden text-3xl font-bold text-bid-wine font-bigilla">
+              BID
+            </span>
+
           </Link>
           <div className="flex gap-x-4">
             {navigation.map((item) => (
               <Link
                 href={item.href}
                 key={item.name}
-                legacyBehavior
                 prefetch={false}
+                className={`text-sm sm:text-base block  h-full text-bid-wine font-playfair  hover:text-bid-sand duration-300 ${
+                  item.href === pathname ? "underline" : ""
+                }`}
               >
-                <a
-                  key={item.name}
-                  className={`text-sm sm:text-base block  h-full text-bid-wine font-playfair  hover:text-bid-sand duration-300 ${
-                    item.href === pathname ? "underline" : ""
-                  }`}
-                >
-                  {item.name}
-                </a>
+
+                {item.name}
+
               </Link>
             ))}
           </div>
