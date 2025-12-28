@@ -2,7 +2,6 @@ import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
-console.log("asdadsasd", { Disclosure });
 const Dropdown = ({ title, children, type }) => {
   return (
     <Disclosure as="div" className="pt-6 pb-4 border-b">
